@@ -1,20 +1,32 @@
 {
   "name": "career-pilot-e2e",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "implicitDependencies": [
-    "career-pilot"
-  ],
+  "implicitDependencies": ["career-pilot"],
   "projectType": "application",
   "targets": {
     "e2e": {
       "executor": "@nx/jest:jest",
-      "outputs": [
-        "{workspaceRoot}/coverage/{e2eProjectRoot}"
-      ],
+      "outputs": ["{workspaceRoot}/coverage/{e2eProjectRoot}"],
       "options": {
         "jestConfig": "apps/career-pilot-e2e/jest.config.ts",
+        "devServerTarget": "career-pilot:serve:development",
+        "testingType": "e2e",
         "passWithNoTests": true
+      },
+      "configurations": {
+        "development": {
+          "devServerTarget": "career-pilot:serve:development"
+        },
+        "production": {
+          "devServerTarget": "career-pilot:serve:production"
+        },
+        "ci": {
+          "devServerTarget": "career-pilot:serve-static"
+        }
       }
+    },
+    "test": {
+      "dependsOn": ["^serve-static"]
     }
   }
 }
