@@ -1,0 +1,24 @@
+{
+  "name": "career-pilot",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/career-pilot/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "career-pilot:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "career-pilot:build:development"
+        },
+        "production": {
+          "buildTarget": "career-pilot:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}
