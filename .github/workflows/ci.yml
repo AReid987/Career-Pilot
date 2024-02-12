@@ -48,8 +48,6 @@ jobs:
     if: always()
     needs: [ main ]
     uses: getappmap/analyze-action/.github/workflows/appmap-analysis.yml@v1
-    with:
-      node-version: 20
     permissions:
       actions: read
       contents: read
