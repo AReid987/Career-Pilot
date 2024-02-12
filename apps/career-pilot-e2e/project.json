@@ -19,9 +19,6 @@
         },
         "production": {
           "devServerTarget": "career-pilot:serve:production"
-        },
-        "ci": {
-          "devServerTarget": "career-pilot:serve"
         }
       }
     }
