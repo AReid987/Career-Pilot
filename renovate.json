@@ -8,10 +8,19 @@
       "automerge": true
     },
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-
-      "dependencyDashboardAutoApproval": true,
-      "dependencyDashboardAutoClose": true
+      "matchDepTypes": ["devDependencies", "peerDependencies"],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["pnpm"],
+      "automerge": true
     }
-  ]
+  ],
+  "dependencyDashboardAutoclose": true,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "autoApprove": true,
+    "dependencyDashboardAutoclose": true
+  }
 }
