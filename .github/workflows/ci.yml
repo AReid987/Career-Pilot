@@ -35,5 +35,5 @@ jobs:
 
       - run: pnpm exec nx-cloud record -- nx format:write
       - run: pnpm eslint --fix
-      - run: pnpm prettier --write
+      - run: pnpm prettier . --write
       - run: pnpm exec nx affected -t lint test build
