@@ -1,0 +1,4815 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "id": 1,
+      "thread_id": 0,
+      "method_id": "__webpack_require__",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Number",
+          "value": "1",
+          "name": "moduleId"
+        }
+      ],
+      "defined_class": "main",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 104
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 2,
+      "parent_id": 1,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "Scope",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "0",
+                "class": "String"
+              },
+              {
+                "name": "1",
+                "class": "String"
+              },
+              {
+                "name": "2",
+                "class": "String"
+              },
+              {
+                "name": "DEFAULT",
+                "class": "Number"
+              },
+              {
+                "name": "TRANSIENT",
+                "class": "Number"
+              },
+              {
+                "name": "REQUEST",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "VERSION_NEUTRAL",
+            "class": "Symbol"
+          },
+          {
+            "name": "Bind",
+            "class": "Function"
+          },
+          {
+            "name": "Catch",
+            "class": "Function"
+          },
+          {
+            "name": "Controller",
+            "class": "Function"
+          },
+          {
+            "name": "flatten",
+            "class": "Function"
+          },
+          {
+            "name": "Dependencies",
+            "class": "Function"
+          },
+          {
+            "name": "UseFilters",
+            "class": "Function"
+          },
+          {
+            "name": "Inject",
+            "class": "Function"
+          },
+          {
+            "name": "Injectable",
+            "class": "Function"
+          },
+          {
+            "name": "mixin",
+            "class": "Function"
+          },
+          {
+            "name": "Optional",
+            "class": "Function"
+          },
+          {
+            "name": "SetMetadata",
+            "class": "Function"
+          },
+          {
+            "name": "UseGuards",
+            "class": "Function"
+          },
+          {
+            "name": "UseInterceptors",
+            "class": "Function"
+          },
+          {
+            "name": "UsePipes",
+            "class": "Function"
+          },
+          {
+            "name": "applyDecorators",
+            "class": "Function"
+          },
+          {
+            "name": "Version",
+            "class": "Function"
+          },
+          {
+            "name": "Global",
+            "class": "Function"
+          },
+          {
+            "name": "Module",
+            "class": "Function"
+          },
+          {
+            "name": "RequestMapping",
+            "class": "Function"
+          },
+          {
+            "name": "Post",
+            "class": "Function"
+          },
+          {
+            "name": "Get",
+            "class": "Function"
+          },
+          {
+            "name": "Delete",
+            "class": "Function"
+          },
+          {
+            "name": "Put",
+            "class": "Function"
+          },
+          {
+            "name": "Patch",
+            "class": "Function"
+          },
+          {
+            "name": "Options",
+            "class": "Function"
+          },
+          {
+            "name": "Head",
+            "class": "Function"
+          },
+          {
+            "name": "All",
+            "class": "Function"
+          },
+          {
+            "name": "Search",
+            "class": "Function"
+          },
+          {
+            "name": "assignMetadata",
+            "class": "Function"
+          },
+          {
+            "name": "Request",
+            "class": "Function"
+          },
+          {
+            "name": "Response",
+            "class": "Function"
+          },
+          {
+            "name": "Next",
+            "class": "Function"
+          },
+          {
+            "name": "Ip",
+            "class": "Function"
+          },
+          {
+            "name": "Session",
+            "class": "Function"
+          },
+          {
+            "name": "UploadedFile",
+            "class": "Function"
+          },
+          {
+            "name": "UploadedFiles",
+            "class": "Function"
+          },
+          {
+            "name": "Headers",
+            "class": "Function"
+          },
+          {
+            "name": "Query",
+            "class": "Function"
+          },
+          {
+            "name": "Body",
+            "class": "Function"
+          },
+          {
+            "name": "Param",
+            "class": "Function"
+          },
+          {
+            "name": "HostParam",
+            "class": "Function"
+          },
+          {
+            "name": "Req",
+            "class": "Function"
+          },
+          {
+            "name": "Res",
+            "class": "Function"
+          },
+          {
+            "name": "HttpCode",
+            "class": "Function"
+          },
+          {
+            "name": "createParamDecorator",
+            "class": "Function"
+          },
+          {
+            "name": "Render",
+            "class": "Function"
+          },
+          {
+            "name": "Header",
+            "class": "Function"
+          },
+          {
+            "name": "Redirect",
+            "class": "Function"
+          },
+          {
+            "name": "Sse",
+            "class": "Function"
+          },
+          {
+            "name": "RequestMethod",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "0",
+                "class": "String"
+              },
+              {
+                "name": "1",
+                "class": "String"
+              },
+              {
+                "name": "2",
+                "class": "String"
+              },
+              {
+                "name": "3",
+                "class": "String"
+              },
+              {
+                "name": "4",
+                "class": "String"
+              },
+              {
+                "name": "5",
+                "class": "String"
+              },
+              {
+                "name": "6",
+                "class": "String"
+              },
+              {
+                "name": "7",
+                "class": "String"
+              },
+              {
+                "name": "8",
+                "class": "String"
+              },
+              {
+                "name": "GET",
+                "class": "Number"
+              },
+              {
+                "name": "POST",
+                "class": "Number"
+              },
+              {
+                "name": "PUT",
+                "class": "Number"
+              },
+              {
+                "name": "DELETE",
+                "class": "Number"
+              },
+              {
+                "name": "PATCH",
+                "class": "Number"
+              },
+              {
+                "name": "ALL",
+                "class": "Number"
+              },
+              {
+                "name": "OPTIONS",
+                "class": "Number"
+              },
+              {
+                "name": "HEAD",
+                "class": "Number"
+              },
+              {
+                "name": "SEARCH",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "HttpStatus",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "100",
+                "class": "String"
+              },
+              {
+                "name": "101",
+                "class": "String"
+              },
+              {
+                "name": "102",
+                "class": "String"
+              },
+              {
+                "name": "103",
+                "class": "String"
+              },
+              {
+                "name": "200",
+                "class": "String"
+              },
+              {
+                "name": "201",
+                "class": "String"
+              },
+              {
+                "name": "202",
+                "class": "String"
+              },
+              {
+                "name": "203",
+                "class": "String"
+              },
+              {
+                "name": "204",
+                "class": "String"
+              },
+              {
+                "name": "205",
+                "class": "String"
+              },
+              {
+                "name": "206",
+                "class": "String"
+              },
+              {
+                "name": "300",
+                "class": "String"
+              },
+              {
+                "name": "301",
+                "class": "String"
+              },
+              {
+                "name": "302",
+                "class": "String"
+              },
+              {
+                "name": "303",
+                "class": "String"
+              },
+              {
+                "name": "304",
+                "class": "String"
+              },
+              {
+                "name": "307",
+                "class": "String"
+              },
+              {
+                "name": "308",
+                "class": "String"
+              },
+              {
+                "name": "400",
+                "class": "String"
+              },
+              {
+                "name": "401",
+                "class": "String"
+              },
+              {
+                "name": "402",
+                "class": "String"
+              },
+              {
+                "name": "403",
+                "class": "String"
+              },
+              {
+                "name": "404",
+                "class": "String"
+              },
+              {
+                "name": "405",
+                "class": "String"
+              },
+              {
+                "name": "406",
+                "class": "String"
+              },
+              {
+                "name": "407",
+                "class": "String"
+              },
+              {
+                "name": "408",
+                "class": "String"
+              },
+              {
+                "name": "409",
+                "class": "String"
+              },
+              {
+                "name": "410",
+                "class": "String"
+              },
+              {
+                "name": "411",
+                "class": "String"
+              },
+              {
+                "name": "412",
+                "class": "String"
+              },
+              {
+                "name": "413",
+                "class": "String"
+              },
+              {
+                "name": "414",
+                "class": "String"
+              },
+              {
+                "name": "415",
+                "class": "String"
+              },
+              {
+                "name": "416",
+                "class": "String"
+              },
+              {
+                "name": "417",
+                "class": "String"
+              },
+              {
+                "name": "418",
+                "class": "String"
+              },
+              {
+                "name": "421",
+                "class": "String"
+              },
+              {
+                "name": "422",
+                "class": "String"
+              },
+              {
+                "name": "424",
+                "class": "String"
+              },
+              {
+                "name": "428",
+                "class": "String"
+              },
+              {
+                "name": "429",
+                "class": "String"
+              },
+              {
+                "name": "500",
+                "class": "String"
+              },
+              {
+                "name": "501",
+                "class": "String"
+              },
+              {
+                "name": "502",
+                "class": "String"
+              },
+              {
+                "name": "503",
+                "class": "String"
+              },
+              {
+                "name": "504",
+                "class": "String"
+              },
+              {
+                "name": "505",
+                "class": "String"
+              },
+              {
+                "name": "CONTINUE",
+                "class": "Number"
+              },
+              {
+                "name": "SWITCHING_PROTOCOLS",
+                "class": "Number"
+              },
+              {
+                "name": "PROCESSING",
+                "class": "Number"
+              },
+              {
+                "name": "EARLYHINTS",
+                "class": "Number"
+              },
+              {
+                "name": "OK",
+                "class": "Number"
+              },
+              {
+                "name": "CREATED",
+                "class": "Number"
+              },
+              {
+                "name": "ACCEPTED",
+                "class": "Number"
+              },
+              {
+                "name": "NON_AUTHORITATIVE_INFORMATION",
+                "class": "Number"
+              },
+              {
+                "name": "NO_CONTENT",
+                "class": "Number"
+              },
+              {
+                "name": "RESET_CONTENT",
+                "class": "Number"
+              },
+              {
+                "name": "PARTIAL_CONTENT",
+                "class": "Number"
+              },
+              {
+                "name": "AMBIGUOUS",
+                "class": "Number"
+              },
+              {
+                "name": "MOVED_PERMANENTLY",
+                "class": "Number"
+              },
+              {
+                "name": "FOUND",
+                "class": "Number"
+              },
+              {
+                "name": "SEE_OTHER",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_MODIFIED",
+                "class": "Number"
+              },
+              {
+                "name": "TEMPORARY_REDIRECT",
+                "class": "Number"
+              },
+              {
+                "name": "PERMANENT_REDIRECT",
+                "class": "Number"
+              },
+              {
+                "name": "BAD_REQUEST",
+                "class": "Number"
+              },
+              {
+                "name": "UNAUTHORIZED",
+                "class": "Number"
+              },
+              {
+                "name": "PAYMENT_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "FORBIDDEN",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_FOUND",
+                "class": "Number"
+              },
+              {
+                "name": "METHOD_NOT_ALLOWED",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_ACCEPTABLE",
+                "class": "Number"
+              },
+              {
+                "name": "PROXY_AUTHENTICATION_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "REQUEST_TIMEOUT",
+                "class": "Number"
+              },
+              {
+                "name": "CONFLICT",
+                "class": "Number"
+              },
+              {
+                "name": "GONE",
+                "class": "Number"
+              },
+              {
+                "name": "LENGTH_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "PRECONDITION_FAILED",
+                "class": "Number"
+              },
+              {
+                "name": "PAYLOAD_TOO_LARGE",
+                "class": "Number"
+              },
+              {
+                "name": "URI_TOO_LONG",
+                "class": "Number"
+              },
+              {
+                "name": "UNSUPPORTED_MEDIA_TYPE",
+                "class": "Number"
+              },
+              {
+                "name": "REQUESTED_RANGE_NOT_SATISFIABLE",
+                "class": "Number"
+              },
+              {
+                "name": "EXPECTATION_FAILED",
+                "class": "Number"
+              },
+              {
+                "name": "I_AM_A_TEAPOT",
+                "class": "Number"
+              },
+              {
+                "name": "MISDIRECTED",
+                "class": "Number"
+              },
+              {
+                "name": "UNPROCESSABLE_ENTITY",
+                "class": "Number"
+              },
+              {
+                "name": "FAILED_DEPENDENCY",
+                "class": "Number"
+              },
+              {
+                "name": "PRECONDITION_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "TOO_MANY_REQUESTS",
+                "class": "Number"
+              },
+              {
+                "name": "INTERNAL_SERVER_ERROR",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_IMPLEMENTED",
+                "class": "Number"
+              },
+              {
+                "name": "BAD_GATEWAY",
+                "class": "Number"
+              },
+              {
+                "name": "SERVICE_UNAVAILABLE",
+                "class": "Number"
+              },
+              {
+                "name": "GATEWAY_TIMEOUT",
+                "class": "Number"
+              },
+              {
+                "name": "HTTP_VERSION_NOT_SUPPORTED",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "ShutdownSignal",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "SIGHUP",
+                "class": "String"
+              },
+              {
+                "name": "SIGINT",
+                "class": "String"
+              },
+              {
+                "name": "SIGQUIT",
+                "class": "String"
+              },
+              {
+                "name": "SIGILL",
+                "class": "String"
+              },
+              {
+                "name": "SIGTRAP",
+                "class": "String"
+              },
+              {
+                "name": "SIGABRT",
+                "class": "String"
+              },
+              {
+                "name": "SIGBUS",
+                "class": "String"
+              },
+              {
+                "name": "SIGFPE",
+                "class": "String"
+              },
+              {
+                "name": "SIGSEGV",
+                "class": "String"
+              },
+              {
+                "name": "SIGUSR2",
+                "class": "String"
+              },
+              {
+                "name": "SIGTERM",
+                "class": "String"
+              }
+            ]
+          },
+          {
+            "name": "VersioningType",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "0",
+                "class": "String"
+              },
+              {
+                "name": "1",
+                "class": "String"
+              },
+              {
+                "name": "2",
+                "class": "String"
+              },
+              {
+                "name": "3",
+                "class": "String"
+              },
+              {
+                "name": "URI",
+                "class": "Number"
+              },
+              {
+                "name": "HEADER",
+                "class": "Number"
+              },
+              {
+                "name": "MEDIA_TYPE",
+                "class": "Number"
+              },
+              {
+                "name": "CUSTOM",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "BadRequestException",
+            "class": "Function"
+          },
+          {
+            "name": "HttpException",
+            "class": "Function"
+          },
+          {
+            "name": "UnauthorizedException",
+            "class": "Function"
+          },
+          {
+            "name": "MethodNotAllowedException",
+            "class": "Function"
+          },
+          {
+            "name": "NotFoundException",
+            "class": "Function"
+          },
+          {
+            "name": "ForbiddenException",
+            "class": "Function"
+          },
+          {
+            "name": "NotAcceptableException",
+            "class": "Function"
+          },
+          {
+            "name": "RequestTimeoutException",
+            "class": "Function"
+          },
+          {
+            "name": "ConflictException",
+            "class": "Function"
+          },
+          {
+            "name": "GoneException",
+            "class": "Function"
+          },
+          {
+            "name": "PayloadTooLargeException",
+            "class": "Function"
+          },
+          {
+            "name": "UnsupportedMediaTypeException",
+            "class": "Function"
+          },
+          {
+            "name": "UnprocessableEntityException",
+            "class": "Function"
+          },
+          {
+            "name": "InternalServerErrorException",
+            "class": "Function"
+          },
+          {
+            "name": "NotImplementedException",
+            "class": "Function"
+          },
+          {
+            "name": "HttpVersionNotSupportedException",
+            "class": "Function"
+          },
+          {
+            "name": "BadGatewayException",
+            "class": "Function"
+          },
+          {
+            "name": "ServiceUnavailableException",
+            "class": "Function"
+          },
+          {
+            "name": "GatewayTimeoutException",
+            "class": "Function"
+          },
+          {
+            "name": "ImATeapotException",
+            "class": "Function"
+          },
+          {
+            "name": "PreconditionFailedException",
+            "class": "Function"
+          },
+          {
+            "name": "MisdirectedException",
+            "class": "Function"
+          },
+          {
+            "name": "StreamableFile",
+            "class": "Function"
+          },
+          {
+            "name": "ConfigurableModuleBuilder",
+            "class": "Function"
+          },
+          {
+            "name": "DefaultValuePipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseArrayPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseBoolPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseIntPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseFloatPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseEnumPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseUUIDPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ValidationPipe",
+            "class": "Function"
+          },
+          {
+            "name": "FileTypeValidator",
+            "class": "Function"
+          },
+          {
+            "name": "FileValidator",
+            "class": "Function"
+          },
+          {
+            "name": "MaxFileSizeValidator",
+            "class": "Function"
+          },
+          {
+            "name": "ParseFilePipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseFilePipeBuilder",
+            "class": "Function"
+          },
+          {
+            "name": "ClassSerializerInterceptor",
+            "class": "Function"
+          },
+          {
+            "name": "SerializeOptions",
+            "class": "Function"
+          },
+          {
+            "name": "ConsoleLogger",
+            "class": "Function"
+          },
+          {
+            "name": "Logger",
+            "class": "Function"
+          },
+          {
+            "name": "forwardRef",
+            "class": "Function"
+          }
+        ],
+        "value": "{\n  Scope: [Getter],\n  VERSION_NEUTRAL: [Getter],\n  Bind: [Getter],\n  Catch: [Getter],\n  Controller: [Getter],\n  flatten: [Getter],\n  Dependencies: [Getter],\n  UseFilters: [Getter],\n  Inject: [Getter],\n  Injectable: [Getter],\n  mixin: [Getter],\n  Optional: [Getter],\n  SetMetadata: [Getter],\n  UseGuards: [Getter],\n  UseInterceptors: [Getter],\n  UsePipes: [Getter],\n  applyDecorators: [Getter],\n  Version: [Getter],\n  Global: [Getter],\n  Module: [Getter],\n  RequestMapping: [Getter],\n  Post: [Getter],\n  Get: [Getter],\n  Delete: [Getter],\n  Put: [Getter],\n  Patch: [Getter],\n  Options: [Getter],\n  Head: [Getter],\n  All: [Getter],\n  Search: [Getter],\n  assignMetadata: [Getter],\n  Request: [Getter],\n  Response: [Getter],\n  Next: [Getter],\n  Ip: [Getter],\n  Session: [Getter],\n  UploadedFile: [Getter],\n  UploadedFiles: [Getter],\n  Headers: [Getter],\n  Query: [Getter],\n  Body: [Getter],\n  Param: [Getter],\n  HostParam: [Getter],\n  Req: [Getter],\n  Res: [Getter],\n  HttpCode: [Getter],\n  createParamDecorator: [Getter],\n  Render: [Getter],\n  Header: [Getter],\n  Redirect: [Getter],\n  Sse: [Getter],\n  RequestMethod: [Getter],\n  HttpStatus: [Getter],\n  ShutdownSignal: [Getter],\n  VersioningType: [Getter],\n  BadRequestException: [Getter],\n  HttpException: [Getter],\n  UnauthorizedException: [Getter],\n  MethodNotAllowedException: [Getter],\n  NotFoundException: [Getter],\n  ForbiddenException: [Getter],\n  NotAcceptableException: [Getter],\n  RequestTimeoutException: [Getter],\n  ConflictException: [Getter],\n  GoneException: [Getter],\n  PayloadTooLargeException: [Getter],\n  UnsupportedMediaTypeException: [Getter],\n  UnprocessableEntityException: [Getter],\n  InternalServerErrorException: [Getter],\n  NotImplementedException: [Getter],\n  HttpVersionNotSupportedException: [Getter],\n  BadGatewayException: [Getter],\n  ServiceUnavailableException: [Getter],\n  GatewayTimeoutException: [Getter],\n  ImATeapotException: [Getter],\n  PreconditionFailedException: [Getter],\n  MisdirectedException: [Getter],\n  StreamableFile: [Getter],\n  ConfigurableModuleBuilder: [Getter],\n  DefaultValuePipe: [Getter],\n  ParseArrayPipe: [Getter],\n  ParseBoolPipe: [Getter],\n  ParseIntPipe: [Getter],\n  ParseFloatPipe: [Getter],\n  ParseEnumPipe: [Getter],\n  ParseUUIDPipe: [Getter],\n  ValidationPipe: [Getter],\n  FileTypeValidator: [Getter],\n  FileValidator: [Getter],\n  MaxFileSizeValidator: [Getter],\n  ParseFilePipe: [Getter],\n  ParseFilePipeBuilder: [Getter],\n  ClassSerializerInterceptor: [Getter],\n  SerializeOptions: [Getter],\n  ConsoleLogger: [Getter],\n  Logger: [Getter],\n  forwardRef: [Getter]\n}",
+        "object_id": 1
+      },
+      "elapsed": 0.1056472920026863
+    },
+    {
+      "event": "call",
+      "id": 3,
+      "thread_id": 0,
+      "method_id": "__webpack_require__",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Number",
+          "value": "2",
+          "name": "moduleId"
+        }
+      ],
+      "defined_class": "main",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 104
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 4,
+      "parent_id": 3,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "APP_FILTER",
+            "class": "String"
+          },
+          {
+            "name": "APP_GUARD",
+            "class": "String"
+          },
+          {
+            "name": "APP_INTERCEPTOR",
+            "class": "String"
+          },
+          {
+            "name": "APP_PIPE",
+            "class": "String"
+          },
+          {
+            "name": "NestFactory",
+            "class": "NestFactoryStatic"
+          },
+          {
+            "name": "AbstractHttpAdapter",
+            "class": "Function"
+          },
+          {
+            "name": "ApplicationConfig",
+            "class": "Function"
+          },
+          {
+            "name": "DiscoveryModule",
+            "class": "Function"
+          },
+          {
+            "name": "DiscoveryService",
+            "class": "Function"
+          },
+          {
+            "name": "BaseExceptionFilter",
+            "class": "Function"
+          },
+          {
+            "name": "createContextId",
+            "class": "Function"
+          },
+          {
+            "name": "ContextIdFactory",
+            "class": "Function"
+          },
+          {
+            "name": "ExternalContextCreator",
+            "class": "Function"
+          },
+          {
+            "name": "HttpAdapterHost",
+            "class": "Function"
+          },
+          {
+            "name": "NestContainer",
+            "class": "Function"
+          },
+          {
+            "name": "INQUIRER",
+            "class": "String"
+          },
+          {
+            "name": "LazyModuleLoader",
+            "class": "Function"
+          },
+          {
+            "name": "ModuleRef",
+            "class": "Function"
+          },
+          {
+            "name": "ModulesContainer",
+            "class": "Function"
+          },
+          {
+            "name": "GraphInspector",
+            "class": "Function"
+          },
+          {
+            "name": "InitializeOnPreviewAllowlist",
+            "class": "Function"
+          },
+          {
+            "name": "PartialGraphHost",
+            "class": "Function"
+          },
+          {
+            "name": "SerializedGraph",
+            "class": "Function"
+          },
+          {
+            "name": "MetadataScanner",
+            "class": "Function"
+          },
+          {
+            "name": "MiddlewareBuilder",
+            "class": "Function"
+          },
+          {
+            "name": "NestApplication",
+            "class": "Function"
+          },
+          {
+            "name": "NestApplicationContext",
+            "class": "Function"
+          },
+          {
+            "name": "repl",
+            "class": "AsyncFunction"
+          },
+          {
+            "name": "RouterModule",
+            "class": "Function"
+          },
+          {
+            "name": "REQUEST",
+            "class": "String"
+          },
+          {
+            "name": "Reflector",
+            "class": "Function"
+          }
+        ],
+        "value": "{\n  APP_FILTER: [Getter],\n  APP_GUARD: [Getter],\n  APP_INTERCEPTOR: [Getter],\n  APP_PIPE: [Getter],\n  NestFactory: [Getter],\n  AbstractHttpAdapter: [Getter],\n  ApplicationConfig: [Getter],\n  DiscoveryModule: [Getter],\n  DiscoveryService: [Getter],\n  BaseExceptionFilter: [Getter],\n  createContextId: [Getter],\n  ContextIdFactory: [Getter],\n  ExternalContextCreator: [Getter],\n  HttpAdapterHost: [Getter],\n  NestContainer: [Getter],\n  INQUIRER: [Getter],\n  LazyModuleLoader: [Getter],\n  ModuleRef: [Getter],\n  ModulesContainer: [Getter],\n  GraphInspector: [Getter],\n  InitializeOnPreviewAllowlist: [Getter],\n  PartialGraphHost: [Getter],\n  SerializedGraph: [Getter],\n  MetadataScanner: [Getter],\n  MiddlewareBuilder: [Getter],\n  NestApplication: [Getter],\n  NestApplicationContext: [Getter],\n  repl: [Getter],\n  RouterModule: [Getter],\n  REQUEST: [Getter],\n  Reflector: [Getter]\n}",
+        "object_id": 2
+      },
+      "elapsed": 0.090008332990692
+    },
+    {
+      "event": "call",
+      "id": 5,
+      "thread_id": 0,
+      "method_id": "__webpack_require__",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Number",
+          "value": "3",
+          "name": "moduleId"
+        }
+      ],
+      "defined_class": "main",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 104
+    },
+    {
+      "event": "call",
+      "id": 6,
+      "thread_id": 0,
+      "method_id": "__webpack_require__",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Number",
+          "value": "4",
+          "name": "moduleId"
+        }
+      ],
+      "defined_class": "main",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 104
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 7,
+      "parent_id": 6,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "__extends",
+            "class": "Function"
+          },
+          {
+            "name": "__assign",
+            "class": "Function"
+          },
+          {
+            "name": "__rest",
+            "class": "Function"
+          },
+          {
+            "name": "__decorate",
+            "class": "Function"
+          },
+          {
+            "name": "__param",
+            "class": "Function"
+          },
+          {
+            "name": "__esDecorate",
+            "class": "Function"
+          },
+          {
+            "name": "__runInitializers",
+            "class": "Function"
+          },
+          {
+            "name": "__propKey",
+            "class": "Function"
+          },
+          {
+            "name": "__setFunctionName",
+            "class": "Function"
+          },
+          {
+            "name": "__metadata",
+            "class": "Function"
+          },
+          {
+            "name": "__awaiter",
+            "class": "Function"
+          },
+          {
+            "name": "__generator",
+            "class": "Function"
+          },
+          {
+            "name": "__exportStar",
+            "class": "Function"
+          },
+          {
+            "name": "__createBinding",
+            "class": "Function"
+          },
+          {
+            "name": "__values",
+            "class": "Function"
+          },
+          {
+            "name": "__read",
+            "class": "Function"
+          },
+          {
+            "name": "__spread",
+            "class": "Function"
+          },
+          {
+            "name": "__spreadArrays",
+            "class": "Function"
+          },
+          {
+            "name": "__spreadArray",
+            "class": "Function"
+          },
+          {
+            "name": "__await",
+            "class": "Function"
+          },
+          {
+            "name": "__asyncGenerator",
+            "class": "Function"
+          },
+          {
+            "name": "__asyncDelegator",
+            "class": "Function"
+          },
+          {
+            "name": "__asyncValues",
+            "class": "Function"
+          },
+          {
+            "name": "__makeTemplateObject",
+            "class": "Function"
+          },
+          {
+            "name": "__importStar",
+            "class": "Function"
+          },
+          {
+            "name": "__importDefault",
+            "class": "Function"
+          },
+          {
+            "name": "__classPrivateFieldGet",
+            "class": "Function"
+          },
+          {
+            "name": "__classPrivateFieldSet",
+            "class": "Function"
+          },
+          {
+            "name": "__classPrivateFieldIn",
+            "class": "Function"
+          },
+          {
+            "name": "__addDisposableResource",
+            "class": "Function"
+          },
+          {
+            "name": "__disposeResources",
+            "class": "Function"
+          }
+        ],
+        "value": "{\n  __extends: [Function: __extends],\n  __assign: [Function: assign],\n  __rest: [Function: __rest],\n  __decorate: [Function: __decorate],\n  __param: [Function: __param],\n  __esDecorate: [Function: __esDecorate],\n  __runInitializers: [Function: __runInitializers],\n  __propKey: [Function: __propKey],\n  __setFunctionName: [Function: __setFunctionName],\n  __metadata: [Function: __metadata],\n  __awaiter: [Function: __awaiter],\n  __generator: [Function: __generator],\n  __exportStar: [Function: __exportStar],\n  __createBinding: [Function (anonymous)],\n  __values: [Function: __values],\n  __read: [Function: __read],\n  __spread: [Function: __spread],\n  __spreadArrays: [Function: __spreadArrays],\n  __spreadArray: [Function: __spreadArray],\n  __await: [Function: __await],\n  __asyncGenerator: [Function: __asyncGenerator],\n  __asyncDelegator: [Function: __asyncDelegator],\n  __asyncValues: [Function: __asyncValues],\n  __makeTemplateObject: [Function: __makeTemplateObject],\n  __importStar: [Function: __importStar],\n  __importDefault: [Function: __importDefault],\n  __classPrivateFieldGet: [Function: __classPrivateFieldGet],\n  __classPrivateFieldSet: [Function: __classPrivateFieldSet],\n  __classPrivateFieldIn: [Function: __classPrivateFieldIn],\n  __addDisposableResource: [Function: __addDisposableResource],\n  __disposeResources: [Function: __disposeResources]\n}",
+        "object_id": 3
+      },
+      "elapsed": 0.00007504200038965791
+    },
+    {
+      "event": "call",
+      "id": 8,
+      "thread_id": 0,
+      "method_id": "__webpack_require__",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Number",
+          "value": "1",
+          "name": "moduleId"
+        }
+      ],
+      "defined_class": "main",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 104
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 9,
+      "parent_id": 8,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "Scope",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "0",
+                "class": "String"
+              },
+              {
+                "name": "1",
+                "class": "String"
+              },
+              {
+                "name": "2",
+                "class": "String"
+              },
+              {
+                "name": "DEFAULT",
+                "class": "Number"
+              },
+              {
+                "name": "TRANSIENT",
+                "class": "Number"
+              },
+              {
+                "name": "REQUEST",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "VERSION_NEUTRAL",
+            "class": "Symbol"
+          },
+          {
+            "name": "Bind",
+            "class": "Function"
+          },
+          {
+            "name": "Catch",
+            "class": "Function"
+          },
+          {
+            "name": "Controller",
+            "class": "Function"
+          },
+          {
+            "name": "flatten",
+            "class": "Function"
+          },
+          {
+            "name": "Dependencies",
+            "class": "Function"
+          },
+          {
+            "name": "UseFilters",
+            "class": "Function"
+          },
+          {
+            "name": "Inject",
+            "class": "Function"
+          },
+          {
+            "name": "Injectable",
+            "class": "Function"
+          },
+          {
+            "name": "mixin",
+            "class": "Function"
+          },
+          {
+            "name": "Optional",
+            "class": "Function"
+          },
+          {
+            "name": "SetMetadata",
+            "class": "Function"
+          },
+          {
+            "name": "UseGuards",
+            "class": "Function"
+          },
+          {
+            "name": "UseInterceptors",
+            "class": "Function"
+          },
+          {
+            "name": "UsePipes",
+            "class": "Function"
+          },
+          {
+            "name": "applyDecorators",
+            "class": "Function"
+          },
+          {
+            "name": "Version",
+            "class": "Function"
+          },
+          {
+            "name": "Global",
+            "class": "Function"
+          },
+          {
+            "name": "Module",
+            "class": "Function"
+          },
+          {
+            "name": "RequestMapping",
+            "class": "Function"
+          },
+          {
+            "name": "Post",
+            "class": "Function"
+          },
+          {
+            "name": "Get",
+            "class": "Function"
+          },
+          {
+            "name": "Delete",
+            "class": "Function"
+          },
+          {
+            "name": "Put",
+            "class": "Function"
+          },
+          {
+            "name": "Patch",
+            "class": "Function"
+          },
+          {
+            "name": "Options",
+            "class": "Function"
+          },
+          {
+            "name": "Head",
+            "class": "Function"
+          },
+          {
+            "name": "All",
+            "class": "Function"
+          },
+          {
+            "name": "Search",
+            "class": "Function"
+          },
+          {
+            "name": "assignMetadata",
+            "class": "Function"
+          },
+          {
+            "name": "Request",
+            "class": "Function"
+          },
+          {
+            "name": "Response",
+            "class": "Function"
+          },
+          {
+            "name": "Next",
+            "class": "Function"
+          },
+          {
+            "name": "Ip",
+            "class": "Function"
+          },
+          {
+            "name": "Session",
+            "class": "Function"
+          },
+          {
+            "name": "UploadedFile",
+            "class": "Function"
+          },
+          {
+            "name": "UploadedFiles",
+            "class": "Function"
+          },
+          {
+            "name": "Headers",
+            "class": "Function"
+          },
+          {
+            "name": "Query",
+            "class": "Function"
+          },
+          {
+            "name": "Body",
+            "class": "Function"
+          },
+          {
+            "name": "Param",
+            "class": "Function"
+          },
+          {
+            "name": "HostParam",
+            "class": "Function"
+          },
+          {
+            "name": "Req",
+            "class": "Function"
+          },
+          {
+            "name": "Res",
+            "class": "Function"
+          },
+          {
+            "name": "HttpCode",
+            "class": "Function"
+          },
+          {
+            "name": "createParamDecorator",
+            "class": "Function"
+          },
+          {
+            "name": "Render",
+            "class": "Function"
+          },
+          {
+            "name": "Header",
+            "class": "Function"
+          },
+          {
+            "name": "Redirect",
+            "class": "Function"
+          },
+          {
+            "name": "Sse",
+            "class": "Function"
+          },
+          {
+            "name": "RequestMethod",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "0",
+                "class": "String"
+              },
+              {
+                "name": "1",
+                "class": "String"
+              },
+              {
+                "name": "2",
+                "class": "String"
+              },
+              {
+                "name": "3",
+                "class": "String"
+              },
+              {
+                "name": "4",
+                "class": "String"
+              },
+              {
+                "name": "5",
+                "class": "String"
+              },
+              {
+                "name": "6",
+                "class": "String"
+              },
+              {
+                "name": "7",
+                "class": "String"
+              },
+              {
+                "name": "8",
+                "class": "String"
+              },
+              {
+                "name": "GET",
+                "class": "Number"
+              },
+              {
+                "name": "POST",
+                "class": "Number"
+              },
+              {
+                "name": "PUT",
+                "class": "Number"
+              },
+              {
+                "name": "DELETE",
+                "class": "Number"
+              },
+              {
+                "name": "PATCH",
+                "class": "Number"
+              },
+              {
+                "name": "ALL",
+                "class": "Number"
+              },
+              {
+                "name": "OPTIONS",
+                "class": "Number"
+              },
+              {
+                "name": "HEAD",
+                "class": "Number"
+              },
+              {
+                "name": "SEARCH",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "HttpStatus",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "100",
+                "class": "String"
+              },
+              {
+                "name": "101",
+                "class": "String"
+              },
+              {
+                "name": "102",
+                "class": "String"
+              },
+              {
+                "name": "103",
+                "class": "String"
+              },
+              {
+                "name": "200",
+                "class": "String"
+              },
+              {
+                "name": "201",
+                "class": "String"
+              },
+              {
+                "name": "202",
+                "class": "String"
+              },
+              {
+                "name": "203",
+                "class": "String"
+              },
+              {
+                "name": "204",
+                "class": "String"
+              },
+              {
+                "name": "205",
+                "class": "String"
+              },
+              {
+                "name": "206",
+                "class": "String"
+              },
+              {
+                "name": "300",
+                "class": "String"
+              },
+              {
+                "name": "301",
+                "class": "String"
+              },
+              {
+                "name": "302",
+                "class": "String"
+              },
+              {
+                "name": "303",
+                "class": "String"
+              },
+              {
+                "name": "304",
+                "class": "String"
+              },
+              {
+                "name": "307",
+                "class": "String"
+              },
+              {
+                "name": "308",
+                "class": "String"
+              },
+              {
+                "name": "400",
+                "class": "String"
+              },
+              {
+                "name": "401",
+                "class": "String"
+              },
+              {
+                "name": "402",
+                "class": "String"
+              },
+              {
+                "name": "403",
+                "class": "String"
+              },
+              {
+                "name": "404",
+                "class": "String"
+              },
+              {
+                "name": "405",
+                "class": "String"
+              },
+              {
+                "name": "406",
+                "class": "String"
+              },
+              {
+                "name": "407",
+                "class": "String"
+              },
+              {
+                "name": "408",
+                "class": "String"
+              },
+              {
+                "name": "409",
+                "class": "String"
+              },
+              {
+                "name": "410",
+                "class": "String"
+              },
+              {
+                "name": "411",
+                "class": "String"
+              },
+              {
+                "name": "412",
+                "class": "String"
+              },
+              {
+                "name": "413",
+                "class": "String"
+              },
+              {
+                "name": "414",
+                "class": "String"
+              },
+              {
+                "name": "415",
+                "class": "String"
+              },
+              {
+                "name": "416",
+                "class": "String"
+              },
+              {
+                "name": "417",
+                "class": "String"
+              },
+              {
+                "name": "418",
+                "class": "String"
+              },
+              {
+                "name": "421",
+                "class": "String"
+              },
+              {
+                "name": "422",
+                "class": "String"
+              },
+              {
+                "name": "424",
+                "class": "String"
+              },
+              {
+                "name": "428",
+                "class": "String"
+              },
+              {
+                "name": "429",
+                "class": "String"
+              },
+              {
+                "name": "500",
+                "class": "String"
+              },
+              {
+                "name": "501",
+                "class": "String"
+              },
+              {
+                "name": "502",
+                "class": "String"
+              },
+              {
+                "name": "503",
+                "class": "String"
+              },
+              {
+                "name": "504",
+                "class": "String"
+              },
+              {
+                "name": "505",
+                "class": "String"
+              },
+              {
+                "name": "CONTINUE",
+                "class": "Number"
+              },
+              {
+                "name": "SWITCHING_PROTOCOLS",
+                "class": "Number"
+              },
+              {
+                "name": "PROCESSING",
+                "class": "Number"
+              },
+              {
+                "name": "EARLYHINTS",
+                "class": "Number"
+              },
+              {
+                "name": "OK",
+                "class": "Number"
+              },
+              {
+                "name": "CREATED",
+                "class": "Number"
+              },
+              {
+                "name": "ACCEPTED",
+                "class": "Number"
+              },
+              {
+                "name": "NON_AUTHORITATIVE_INFORMATION",
+                "class": "Number"
+              },
+              {
+                "name": "NO_CONTENT",
+                "class": "Number"
+              },
+              {
+                "name": "RESET_CONTENT",
+                "class": "Number"
+              },
+              {
+                "name": "PARTIAL_CONTENT",
+                "class": "Number"
+              },
+              {
+                "name": "AMBIGUOUS",
+                "class": "Number"
+              },
+              {
+                "name": "MOVED_PERMANENTLY",
+                "class": "Number"
+              },
+              {
+                "name": "FOUND",
+                "class": "Number"
+              },
+              {
+                "name": "SEE_OTHER",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_MODIFIED",
+                "class": "Number"
+              },
+              {
+                "name": "TEMPORARY_REDIRECT",
+                "class": "Number"
+              },
+              {
+                "name": "PERMANENT_REDIRECT",
+                "class": "Number"
+              },
+              {
+                "name": "BAD_REQUEST",
+                "class": "Number"
+              },
+              {
+                "name": "UNAUTHORIZED",
+                "class": "Number"
+              },
+              {
+                "name": "PAYMENT_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "FORBIDDEN",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_FOUND",
+                "class": "Number"
+              },
+              {
+                "name": "METHOD_NOT_ALLOWED",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_ACCEPTABLE",
+                "class": "Number"
+              },
+              {
+                "name": "PROXY_AUTHENTICATION_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "REQUEST_TIMEOUT",
+                "class": "Number"
+              },
+              {
+                "name": "CONFLICT",
+                "class": "Number"
+              },
+              {
+                "name": "GONE",
+                "class": "Number"
+              },
+              {
+                "name": "LENGTH_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "PRECONDITION_FAILED",
+                "class": "Number"
+              },
+              {
+                "name": "PAYLOAD_TOO_LARGE",
+                "class": "Number"
+              },
+              {
+                "name": "URI_TOO_LONG",
+                "class": "Number"
+              },
+              {
+                "name": "UNSUPPORTED_MEDIA_TYPE",
+                "class": "Number"
+              },
+              {
+                "name": "REQUESTED_RANGE_NOT_SATISFIABLE",
+                "class": "Number"
+              },
+              {
+                "name": "EXPECTATION_FAILED",
+                "class": "Number"
+              },
+              {
+                "name": "I_AM_A_TEAPOT",
+                "class": "Number"
+              },
+              {
+                "name": "MISDIRECTED",
+                "class": "Number"
+              },
+              {
+                "name": "UNPROCESSABLE_ENTITY",
+                "class": "Number"
+              },
+              {
+                "name": "FAILED_DEPENDENCY",
+                "class": "Number"
+              },
+              {
+                "name": "PRECONDITION_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "TOO_MANY_REQUESTS",
+                "class": "Number"
+              },
+              {
+                "name": "INTERNAL_SERVER_ERROR",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_IMPLEMENTED",
+                "class": "Number"
+              },
+              {
+                "name": "BAD_GATEWAY",
+                "class": "Number"
+              },
+              {
+                "name": "SERVICE_UNAVAILABLE",
+                "class": "Number"
+              },
+              {
+                "name": "GATEWAY_TIMEOUT",
+                "class": "Number"
+              },
+              {
+                "name": "HTTP_VERSION_NOT_SUPPORTED",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "ShutdownSignal",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "SIGHUP",
+                "class": "String"
+              },
+              {
+                "name": "SIGINT",
+                "class": "String"
+              },
+              {
+                "name": "SIGQUIT",
+                "class": "String"
+              },
+              {
+                "name": "SIGILL",
+                "class": "String"
+              },
+              {
+                "name": "SIGTRAP",
+                "class": "String"
+              },
+              {
+                "name": "SIGABRT",
+                "class": "String"
+              },
+              {
+                "name": "SIGBUS",
+                "class": "String"
+              },
+              {
+                "name": "SIGFPE",
+                "class": "String"
+              },
+              {
+                "name": "SIGSEGV",
+                "class": "String"
+              },
+              {
+                "name": "SIGUSR2",
+                "class": "String"
+              },
+              {
+                "name": "SIGTERM",
+                "class": "String"
+              }
+            ]
+          },
+          {
+            "name": "VersioningType",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "0",
+                "class": "String"
+              },
+              {
+                "name": "1",
+                "class": "String"
+              },
+              {
+                "name": "2",
+                "class": "String"
+              },
+              {
+                "name": "3",
+                "class": "String"
+              },
+              {
+                "name": "URI",
+                "class": "Number"
+              },
+              {
+                "name": "HEADER",
+                "class": "Number"
+              },
+              {
+                "name": "MEDIA_TYPE",
+                "class": "Number"
+              },
+              {
+                "name": "CUSTOM",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "BadRequestException",
+            "class": "Function"
+          },
+          {
+            "name": "HttpException",
+            "class": "Function"
+          },
+          {
+            "name": "UnauthorizedException",
+            "class": "Function"
+          },
+          {
+            "name": "MethodNotAllowedException",
+            "class": "Function"
+          },
+          {
+            "name": "NotFoundException",
+            "class": "Function"
+          },
+          {
+            "name": "ForbiddenException",
+            "class": "Function"
+          },
+          {
+            "name": "NotAcceptableException",
+            "class": "Function"
+          },
+          {
+            "name": "RequestTimeoutException",
+            "class": "Function"
+          },
+          {
+            "name": "ConflictException",
+            "class": "Function"
+          },
+          {
+            "name": "GoneException",
+            "class": "Function"
+          },
+          {
+            "name": "PayloadTooLargeException",
+            "class": "Function"
+          },
+          {
+            "name": "UnsupportedMediaTypeException",
+            "class": "Function"
+          },
+          {
+            "name": "UnprocessableEntityException",
+            "class": "Function"
+          },
+          {
+            "name": "InternalServerErrorException",
+            "class": "Function"
+          },
+          {
+            "name": "NotImplementedException",
+            "class": "Function"
+          },
+          {
+            "name": "HttpVersionNotSupportedException",
+            "class": "Function"
+          },
+          {
+            "name": "BadGatewayException",
+            "class": "Function"
+          },
+          {
+            "name": "ServiceUnavailableException",
+            "class": "Function"
+          },
+          {
+            "name": "GatewayTimeoutException",
+            "class": "Function"
+          },
+          {
+            "name": "ImATeapotException",
+            "class": "Function"
+          },
+          {
+            "name": "PreconditionFailedException",
+            "class": "Function"
+          },
+          {
+            "name": "MisdirectedException",
+            "class": "Function"
+          },
+          {
+            "name": "StreamableFile",
+            "class": "Function"
+          },
+          {
+            "name": "ConfigurableModuleBuilder",
+            "class": "Function"
+          },
+          {
+            "name": "DefaultValuePipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseArrayPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseBoolPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseIntPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseFloatPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseEnumPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseUUIDPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ValidationPipe",
+            "class": "Function"
+          },
+          {
+            "name": "FileTypeValidator",
+            "class": "Function"
+          },
+          {
+            "name": "FileValidator",
+            "class": "Function"
+          },
+          {
+            "name": "MaxFileSizeValidator",
+            "class": "Function"
+          },
+          {
+            "name": "ParseFilePipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseFilePipeBuilder",
+            "class": "Function"
+          },
+          {
+            "name": "ClassSerializerInterceptor",
+            "class": "Function"
+          },
+          {
+            "name": "SerializeOptions",
+            "class": "Function"
+          },
+          {
+            "name": "ConsoleLogger",
+            "class": "Function"
+          },
+          {
+            "name": "Logger",
+            "class": "Function"
+          },
+          {
+            "name": "forwardRef",
+            "class": "Function"
+          }
+        ],
+        "value": "{\n  Scope: [Getter],\n  VERSION_NEUTRAL: [Getter],\n  Bind: [Getter],\n  Catch: [Getter],\n  Controller: [Getter],\n  flatten: [Getter],\n  Dependencies: [Getter],\n  UseFilters: [Getter],\n  Inject: [Getter],\n  Injectable: [Getter],\n  mixin: [Getter],\n  Optional: [Getter],\n  SetMetadata: [Getter],\n  UseGuards: [Getter],\n  UseInterceptors: [Getter],\n  UsePipes: [Getter],\n  applyDecorators: [Getter],\n  Version: [Getter],\n  Global: [Getter],\n  Module: [Getter],\n  RequestMapping: [Getter],\n  Post: [Getter],\n  Get: [Getter],\n  Delete: [Getter],\n  Put: [Getter],\n  Patch: [Getter],\n  Options: [Getter],\n  Head: [Getter],\n  All: [Getter],\n  Search: [Getter],\n  assignMetadata: [Getter],\n  Request: [Getter],\n  Response: [Getter],\n  Next: [Getter],\n  Ip: [Getter],\n  Session: [Getter],\n  UploadedFile: [Getter],\n  UploadedFiles: [Getter],\n  Headers: [Getter],\n  Query: [Getter],\n  Body: [Getter],\n  Param: [Getter],\n  HostParam: [Getter],\n  Req: [Getter],\n  Res: [Getter],\n  HttpCode: [Getter],\n  createParamDecorator: [Getter],\n  Render: [Getter],\n  Header: [Getter],\n  Redirect: [Getter],\n  Sse: [Getter],\n  RequestMethod: [Getter],\n  HttpStatus: [Getter],\n  ShutdownSignal: [Getter],\n  VersioningType: [Getter],\n  BadRequestException: [Getter],\n  HttpException: [Getter],\n  UnauthorizedException: [Getter],\n  MethodNotAllowedException: [Getter],\n  NotFoundException: [Getter],\n  ForbiddenException: [Getter],\n  NotAcceptableException: [Getter],\n  RequestTimeoutException: [Getter],\n  ConflictException: [Getter],\n  GoneException: [Getter],\n  PayloadTooLargeException: [Getter],\n  UnsupportedMediaTypeException: [Getter],\n  UnprocessableEntityException: [Getter],\n  InternalServerErrorException: [Getter],\n  NotImplementedException: [Getter],\n  HttpVersionNotSupportedException: [Getter],\n  BadGatewayException: [Getter],\n  ServiceUnavailableException: [Getter],\n  GatewayTimeoutException: [Getter],\n  ImATeapotException: [Getter],\n  PreconditionFailedException: [Getter],\n  MisdirectedException: [Getter],\n  StreamableFile: [Getter],\n  ConfigurableModuleBuilder: [Getter],\n  DefaultValuePipe: [Getter],\n  ParseArrayPipe: [Getter],\n  ParseBoolPipe: [Getter],\n  ParseIntPipe: [Getter],\n  ParseFloatPipe: [Getter],\n  ParseEnumPipe: [Getter],\n  ParseUUIDPipe: [Getter],\n  ValidationPipe: [Getter],\n  FileTypeValidator: [Getter],\n  FileValidator: [Getter],\n  MaxFileSizeValidator: [Getter],\n  ParseFilePipe: [Getter],\n  ParseFilePipeBuilder: [Getter],\n  ClassSerializerInterceptor: [Getter],\n  SerializeOptions: [Getter],\n  ConsoleLogger: [Getter],\n  Logger: [Getter],\n  forwardRef: [Getter]\n}",
+        "object_id": 1
+      },
+      "elapsed": 0.000002792003215290606
+    },
+    {
+      "event": "call",
+      "id": 10,
+      "thread_id": 0,
+      "method_id": "__webpack_require__",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Number",
+          "value": "5",
+          "name": "moduleId"
+        }
+      ],
+      "defined_class": "main",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 104
+    },
+    {
+      "event": "call",
+      "id": 11,
+      "thread_id": 0,
+      "method_id": "__webpack_require__",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Number",
+          "value": "4",
+          "name": "moduleId"
+        }
+      ],
+      "defined_class": "main",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 104
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 12,
+      "parent_id": 11,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "__extends",
+            "class": "Function"
+          },
+          {
+            "name": "__assign",
+            "class": "Function"
+          },
+          {
+            "name": "__rest",
+            "class": "Function"
+          },
+          {
+            "name": "__decorate",
+            "class": "Function"
+          },
+          {
+            "name": "__param",
+            "class": "Function"
+          },
+          {
+            "name": "__esDecorate",
+            "class": "Function"
+          },
+          {
+            "name": "__runInitializers",
+            "class": "Function"
+          },
+          {
+            "name": "__propKey",
+            "class": "Function"
+          },
+          {
+            "name": "__setFunctionName",
+            "class": "Function"
+          },
+          {
+            "name": "__metadata",
+            "class": "Function"
+          },
+          {
+            "name": "__awaiter",
+            "class": "Function"
+          },
+          {
+            "name": "__generator",
+            "class": "Function"
+          },
+          {
+            "name": "__exportStar",
+            "class": "Function"
+          },
+          {
+            "name": "__createBinding",
+            "class": "Function"
+          },
+          {
+            "name": "__values",
+            "class": "Function"
+          },
+          {
+            "name": "__read",
+            "class": "Function"
+          },
+          {
+            "name": "__spread",
+            "class": "Function"
+          },
+          {
+            "name": "__spreadArrays",
+            "class": "Function"
+          },
+          {
+            "name": "__spreadArray",
+            "class": "Function"
+          },
+          {
+            "name": "__await",
+            "class": "Function"
+          },
+          {
+            "name": "__asyncGenerator",
+            "class": "Function"
+          },
+          {
+            "name": "__asyncDelegator",
+            "class": "Function"
+          },
+          {
+            "name": "__asyncValues",
+            "class": "Function"
+          },
+          {
+            "name": "__makeTemplateObject",
+            "class": "Function"
+          },
+          {
+            "name": "__importStar",
+            "class": "Function"
+          },
+          {
+            "name": "__importDefault",
+            "class": "Function"
+          },
+          {
+            "name": "__classPrivateFieldGet",
+            "class": "Function"
+          },
+          {
+            "name": "__classPrivateFieldSet",
+            "class": "Function"
+          },
+          {
+            "name": "__classPrivateFieldIn",
+            "class": "Function"
+          },
+          {
+            "name": "__addDisposableResource",
+            "class": "Function"
+          },
+          {
+            "name": "__disposeResources",
+            "class": "Function"
+          }
+        ],
+        "value": "{\n  __extends: [Function: __extends],\n  __assign: [Function: assign],\n  __rest: [Function: __rest],\n  __decorate: [Function: __decorate],\n  __param: [Function: __param],\n  __esDecorate: [Function: __esDecorate],\n  __runInitializers: [Function: __runInitializers],\n  __propKey: [Function: __propKey],\n  __setFunctionName: [Function: __setFunctionName],\n  __metadata: [Function: __metadata],\n  __awaiter: [Function: __awaiter],\n  __generator: [Function: __generator],\n  __exportStar: [Function: __exportStar],\n  __createBinding: [Function (anonymous)],\n  __values: [Function: __values],\n  __read: [Function: __read],\n  __spread: [Function: __spread],\n  __spreadArrays: [Function: __spreadArrays],\n  __spreadArray: [Function: __spreadArray],\n  __await: [Function: __await],\n  __asyncGenerator: [Function: __asyncGenerator],\n  __asyncDelegator: [Function: __asyncDelegator],\n  __asyncValues: [Function: __asyncValues],\n  __makeTemplateObject: [Function: __makeTemplateObject],\n  __importStar: [Function: __importStar],\n  __importDefault: [Function: __importDefault],\n  __classPrivateFieldGet: [Function: __classPrivateFieldGet],\n  __classPrivateFieldSet: [Function: __classPrivateFieldSet],\n  __classPrivateFieldIn: [Function: __classPrivateFieldIn],\n  __addDisposableResource: [Function: __addDisposableResource],\n  __disposeResources: [Function: __disposeResources]\n}",
+        "object_id": 3
+      },
+      "elapsed": 0.0000032090028980746865
+    },
+    {
+      "event": "call",
+      "id": 13,
+      "thread_id": 0,
+      "method_id": "__webpack_require__",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Number",
+          "value": "1",
+          "name": "moduleId"
+        }
+      ],
+      "defined_class": "main",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 104
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 14,
+      "parent_id": 13,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "Scope",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "0",
+                "class": "String"
+              },
+              {
+                "name": "1",
+                "class": "String"
+              },
+              {
+                "name": "2",
+                "class": "String"
+              },
+              {
+                "name": "DEFAULT",
+                "class": "Number"
+              },
+              {
+                "name": "TRANSIENT",
+                "class": "Number"
+              },
+              {
+                "name": "REQUEST",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "VERSION_NEUTRAL",
+            "class": "Symbol"
+          },
+          {
+            "name": "Bind",
+            "class": "Function"
+          },
+          {
+            "name": "Catch",
+            "class": "Function"
+          },
+          {
+            "name": "Controller",
+            "class": "Function"
+          },
+          {
+            "name": "flatten",
+            "class": "Function"
+          },
+          {
+            "name": "Dependencies",
+            "class": "Function"
+          },
+          {
+            "name": "UseFilters",
+            "class": "Function"
+          },
+          {
+            "name": "Inject",
+            "class": "Function"
+          },
+          {
+            "name": "Injectable",
+            "class": "Function"
+          },
+          {
+            "name": "mixin",
+            "class": "Function"
+          },
+          {
+            "name": "Optional",
+            "class": "Function"
+          },
+          {
+            "name": "SetMetadata",
+            "class": "Function"
+          },
+          {
+            "name": "UseGuards",
+            "class": "Function"
+          },
+          {
+            "name": "UseInterceptors",
+            "class": "Function"
+          },
+          {
+            "name": "UsePipes",
+            "class": "Function"
+          },
+          {
+            "name": "applyDecorators",
+            "class": "Function"
+          },
+          {
+            "name": "Version",
+            "class": "Function"
+          },
+          {
+            "name": "Global",
+            "class": "Function"
+          },
+          {
+            "name": "Module",
+            "class": "Function"
+          },
+          {
+            "name": "RequestMapping",
+            "class": "Function"
+          },
+          {
+            "name": "Post",
+            "class": "Function"
+          },
+          {
+            "name": "Get",
+            "class": "Function"
+          },
+          {
+            "name": "Delete",
+            "class": "Function"
+          },
+          {
+            "name": "Put",
+            "class": "Function"
+          },
+          {
+            "name": "Patch",
+            "class": "Function"
+          },
+          {
+            "name": "Options",
+            "class": "Function"
+          },
+          {
+            "name": "Head",
+            "class": "Function"
+          },
+          {
+            "name": "All",
+            "class": "Function"
+          },
+          {
+            "name": "Search",
+            "class": "Function"
+          },
+          {
+            "name": "assignMetadata",
+            "class": "Function"
+          },
+          {
+            "name": "Request",
+            "class": "Function"
+          },
+          {
+            "name": "Response",
+            "class": "Function"
+          },
+          {
+            "name": "Next",
+            "class": "Function"
+          },
+          {
+            "name": "Ip",
+            "class": "Function"
+          },
+          {
+            "name": "Session",
+            "class": "Function"
+          },
+          {
+            "name": "UploadedFile",
+            "class": "Function"
+          },
+          {
+            "name": "UploadedFiles",
+            "class": "Function"
+          },
+          {
+            "name": "Headers",
+            "class": "Function"
+          },
+          {
+            "name": "Query",
+            "class": "Function"
+          },
+          {
+            "name": "Body",
+            "class": "Function"
+          },
+          {
+            "name": "Param",
+            "class": "Function"
+          },
+          {
+            "name": "HostParam",
+            "class": "Function"
+          },
+          {
+            "name": "Req",
+            "class": "Function"
+          },
+          {
+            "name": "Res",
+            "class": "Function"
+          },
+          {
+            "name": "HttpCode",
+            "class": "Function"
+          },
+          {
+            "name": "createParamDecorator",
+            "class": "Function"
+          },
+          {
+            "name": "Render",
+            "class": "Function"
+          },
+          {
+            "name": "Header",
+            "class": "Function"
+          },
+          {
+            "name": "Redirect",
+            "class": "Function"
+          },
+          {
+            "name": "Sse",
+            "class": "Function"
+          },
+          {
+            "name": "RequestMethod",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "0",
+                "class": "String"
+              },
+              {
+                "name": "1",
+                "class": "String"
+              },
+              {
+                "name": "2",
+                "class": "String"
+              },
+              {
+                "name": "3",
+                "class": "String"
+              },
+              {
+                "name": "4",
+                "class": "String"
+              },
+              {
+                "name": "5",
+                "class": "String"
+              },
+              {
+                "name": "6",
+                "class": "String"
+              },
+              {
+                "name": "7",
+                "class": "String"
+              },
+              {
+                "name": "8",
+                "class": "String"
+              },
+              {
+                "name": "GET",
+                "class": "Number"
+              },
+              {
+                "name": "POST",
+                "class": "Number"
+              },
+              {
+                "name": "PUT",
+                "class": "Number"
+              },
+              {
+                "name": "DELETE",
+                "class": "Number"
+              },
+              {
+                "name": "PATCH",
+                "class": "Number"
+              },
+              {
+                "name": "ALL",
+                "class": "Number"
+              },
+              {
+                "name": "OPTIONS",
+                "class": "Number"
+              },
+              {
+                "name": "HEAD",
+                "class": "Number"
+              },
+              {
+                "name": "SEARCH",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "HttpStatus",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "100",
+                "class": "String"
+              },
+              {
+                "name": "101",
+                "class": "String"
+              },
+              {
+                "name": "102",
+                "class": "String"
+              },
+              {
+                "name": "103",
+                "class": "String"
+              },
+              {
+                "name": "200",
+                "class": "String"
+              },
+              {
+                "name": "201",
+                "class": "String"
+              },
+              {
+                "name": "202",
+                "class": "String"
+              },
+              {
+                "name": "203",
+                "class": "String"
+              },
+              {
+                "name": "204",
+                "class": "String"
+              },
+              {
+                "name": "205",
+                "class": "String"
+              },
+              {
+                "name": "206",
+                "class": "String"
+              },
+              {
+                "name": "300",
+                "class": "String"
+              },
+              {
+                "name": "301",
+                "class": "String"
+              },
+              {
+                "name": "302",
+                "class": "String"
+              },
+              {
+                "name": "303",
+                "class": "String"
+              },
+              {
+                "name": "304",
+                "class": "String"
+              },
+              {
+                "name": "307",
+                "class": "String"
+              },
+              {
+                "name": "308",
+                "class": "String"
+              },
+              {
+                "name": "400",
+                "class": "String"
+              },
+              {
+                "name": "401",
+                "class": "String"
+              },
+              {
+                "name": "402",
+                "class": "String"
+              },
+              {
+                "name": "403",
+                "class": "String"
+              },
+              {
+                "name": "404",
+                "class": "String"
+              },
+              {
+                "name": "405",
+                "class": "String"
+              },
+              {
+                "name": "406",
+                "class": "String"
+              },
+              {
+                "name": "407",
+                "class": "String"
+              },
+              {
+                "name": "408",
+                "class": "String"
+              },
+              {
+                "name": "409",
+                "class": "String"
+              },
+              {
+                "name": "410",
+                "class": "String"
+              },
+              {
+                "name": "411",
+                "class": "String"
+              },
+              {
+                "name": "412",
+                "class": "String"
+              },
+              {
+                "name": "413",
+                "class": "String"
+              },
+              {
+                "name": "414",
+                "class": "String"
+              },
+              {
+                "name": "415",
+                "class": "String"
+              },
+              {
+                "name": "416",
+                "class": "String"
+              },
+              {
+                "name": "417",
+                "class": "String"
+              },
+              {
+                "name": "418",
+                "class": "String"
+              },
+              {
+                "name": "421",
+                "class": "String"
+              },
+              {
+                "name": "422",
+                "class": "String"
+              },
+              {
+                "name": "424",
+                "class": "String"
+              },
+              {
+                "name": "428",
+                "class": "String"
+              },
+              {
+                "name": "429",
+                "class": "String"
+              },
+              {
+                "name": "500",
+                "class": "String"
+              },
+              {
+                "name": "501",
+                "class": "String"
+              },
+              {
+                "name": "502",
+                "class": "String"
+              },
+              {
+                "name": "503",
+                "class": "String"
+              },
+              {
+                "name": "504",
+                "class": "String"
+              },
+              {
+                "name": "505",
+                "class": "String"
+              },
+              {
+                "name": "CONTINUE",
+                "class": "Number"
+              },
+              {
+                "name": "SWITCHING_PROTOCOLS",
+                "class": "Number"
+              },
+              {
+                "name": "PROCESSING",
+                "class": "Number"
+              },
+              {
+                "name": "EARLYHINTS",
+                "class": "Number"
+              },
+              {
+                "name": "OK",
+                "class": "Number"
+              },
+              {
+                "name": "CREATED",
+                "class": "Number"
+              },
+              {
+                "name": "ACCEPTED",
+                "class": "Number"
+              },
+              {
+                "name": "NON_AUTHORITATIVE_INFORMATION",
+                "class": "Number"
+              },
+              {
+                "name": "NO_CONTENT",
+                "class": "Number"
+              },
+              {
+                "name": "RESET_CONTENT",
+                "class": "Number"
+              },
+              {
+                "name": "PARTIAL_CONTENT",
+                "class": "Number"
+              },
+              {
+                "name": "AMBIGUOUS",
+                "class": "Number"
+              },
+              {
+                "name": "MOVED_PERMANENTLY",
+                "class": "Number"
+              },
+              {
+                "name": "FOUND",
+                "class": "Number"
+              },
+              {
+                "name": "SEE_OTHER",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_MODIFIED",
+                "class": "Number"
+              },
+              {
+                "name": "TEMPORARY_REDIRECT",
+                "class": "Number"
+              },
+              {
+                "name": "PERMANENT_REDIRECT",
+                "class": "Number"
+              },
+              {
+                "name": "BAD_REQUEST",
+                "class": "Number"
+              },
+              {
+                "name": "UNAUTHORIZED",
+                "class": "Number"
+              },
+              {
+                "name": "PAYMENT_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "FORBIDDEN",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_FOUND",
+                "class": "Number"
+              },
+              {
+                "name": "METHOD_NOT_ALLOWED",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_ACCEPTABLE",
+                "class": "Number"
+              },
+              {
+                "name": "PROXY_AUTHENTICATION_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "REQUEST_TIMEOUT",
+                "class": "Number"
+              },
+              {
+                "name": "CONFLICT",
+                "class": "Number"
+              },
+              {
+                "name": "GONE",
+                "class": "Number"
+              },
+              {
+                "name": "LENGTH_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "PRECONDITION_FAILED",
+                "class": "Number"
+              },
+              {
+                "name": "PAYLOAD_TOO_LARGE",
+                "class": "Number"
+              },
+              {
+                "name": "URI_TOO_LONG",
+                "class": "Number"
+              },
+              {
+                "name": "UNSUPPORTED_MEDIA_TYPE",
+                "class": "Number"
+              },
+              {
+                "name": "REQUESTED_RANGE_NOT_SATISFIABLE",
+                "class": "Number"
+              },
+              {
+                "name": "EXPECTATION_FAILED",
+                "class": "Number"
+              },
+              {
+                "name": "I_AM_A_TEAPOT",
+                "class": "Number"
+              },
+              {
+                "name": "MISDIRECTED",
+                "class": "Number"
+              },
+              {
+                "name": "UNPROCESSABLE_ENTITY",
+                "class": "Number"
+              },
+              {
+                "name": "FAILED_DEPENDENCY",
+                "class": "Number"
+              },
+              {
+                "name": "PRECONDITION_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "TOO_MANY_REQUESTS",
+                "class": "Number"
+              },
+              {
+                "name": "INTERNAL_SERVER_ERROR",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_IMPLEMENTED",
+                "class": "Number"
+              },
+              {
+                "name": "BAD_GATEWAY",
+                "class": "Number"
+              },
+              {
+                "name": "SERVICE_UNAVAILABLE",
+                "class": "Number"
+              },
+              {
+                "name": "GATEWAY_TIMEOUT",
+                "class": "Number"
+              },
+              {
+                "name": "HTTP_VERSION_NOT_SUPPORTED",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "ShutdownSignal",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "SIGHUP",
+                "class": "String"
+              },
+              {
+                "name": "SIGINT",
+                "class": "String"
+              },
+              {
+                "name": "SIGQUIT",
+                "class": "String"
+              },
+              {
+                "name": "SIGILL",
+                "class": "String"
+              },
+              {
+                "name": "SIGTRAP",
+                "class": "String"
+              },
+              {
+                "name": "SIGABRT",
+                "class": "String"
+              },
+              {
+                "name": "SIGBUS",
+                "class": "String"
+              },
+              {
+                "name": "SIGFPE",
+                "class": "String"
+              },
+              {
+                "name": "SIGSEGV",
+                "class": "String"
+              },
+              {
+                "name": "SIGUSR2",
+                "class": "String"
+              },
+              {
+                "name": "SIGTERM",
+                "class": "String"
+              }
+            ]
+          },
+          {
+            "name": "VersioningType",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "0",
+                "class": "String"
+              },
+              {
+                "name": "1",
+                "class": "String"
+              },
+              {
+                "name": "2",
+                "class": "String"
+              },
+              {
+                "name": "3",
+                "class": "String"
+              },
+              {
+                "name": "URI",
+                "class": "Number"
+              },
+              {
+                "name": "HEADER",
+                "class": "Number"
+              },
+              {
+                "name": "MEDIA_TYPE",
+                "class": "Number"
+              },
+              {
+                "name": "CUSTOM",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "BadRequestException",
+            "class": "Function"
+          },
+          {
+            "name": "HttpException",
+            "class": "Function"
+          },
+          {
+            "name": "UnauthorizedException",
+            "class": "Function"
+          },
+          {
+            "name": "MethodNotAllowedException",
+            "class": "Function"
+          },
+          {
+            "name": "NotFoundException",
+            "class": "Function"
+          },
+          {
+            "name": "ForbiddenException",
+            "class": "Function"
+          },
+          {
+            "name": "NotAcceptableException",
+            "class": "Function"
+          },
+          {
+            "name": "RequestTimeoutException",
+            "class": "Function"
+          },
+          {
+            "name": "ConflictException",
+            "class": "Function"
+          },
+          {
+            "name": "GoneException",
+            "class": "Function"
+          },
+          {
+            "name": "PayloadTooLargeException",
+            "class": "Function"
+          },
+          {
+            "name": "UnsupportedMediaTypeException",
+            "class": "Function"
+          },
+          {
+            "name": "UnprocessableEntityException",
+            "class": "Function"
+          },
+          {
+            "name": "InternalServerErrorException",
+            "class": "Function"
+          },
+          {
+            "name": "NotImplementedException",
+            "class": "Function"
+          },
+          {
+            "name": "HttpVersionNotSupportedException",
+            "class": "Function"
+          },
+          {
+            "name": "BadGatewayException",
+            "class": "Function"
+          },
+          {
+            "name": "ServiceUnavailableException",
+            "class": "Function"
+          },
+          {
+            "name": "GatewayTimeoutException",
+            "class": "Function"
+          },
+          {
+            "name": "ImATeapotException",
+            "class": "Function"
+          },
+          {
+            "name": "PreconditionFailedException",
+            "class": "Function"
+          },
+          {
+            "name": "MisdirectedException",
+            "class": "Function"
+          },
+          {
+            "name": "StreamableFile",
+            "class": "Function"
+          },
+          {
+            "name": "ConfigurableModuleBuilder",
+            "class": "Function"
+          },
+          {
+            "name": "DefaultValuePipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseArrayPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseBoolPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseIntPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseFloatPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseEnumPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseUUIDPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ValidationPipe",
+            "class": "Function"
+          },
+          {
+            "name": "FileTypeValidator",
+            "class": "Function"
+          },
+          {
+            "name": "FileValidator",
+            "class": "Function"
+          },
+          {
+            "name": "MaxFileSizeValidator",
+            "class": "Function"
+          },
+          {
+            "name": "ParseFilePipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseFilePipeBuilder",
+            "class": "Function"
+          },
+          {
+            "name": "ClassSerializerInterceptor",
+            "class": "Function"
+          },
+          {
+            "name": "SerializeOptions",
+            "class": "Function"
+          },
+          {
+            "name": "ConsoleLogger",
+            "class": "Function"
+          },
+          {
+            "name": "Logger",
+            "class": "Function"
+          },
+          {
+            "name": "forwardRef",
+            "class": "Function"
+          }
+        ],
+        "value": "{\n  Scope: [Getter],\n  VERSION_NEUTRAL: [Getter],\n  Bind: [Getter],\n  Catch: [Getter],\n  Controller: [Getter],\n  flatten: [Getter],\n  Dependencies: [Getter],\n  UseFilters: [Getter],\n  Inject: [Getter],\n  Injectable: [Getter],\n  mixin: [Getter],\n  Optional: [Getter],\n  SetMetadata: [Getter],\n  UseGuards: [Getter],\n  UseInterceptors: [Getter],\n  UsePipes: [Getter],\n  applyDecorators: [Getter],\n  Version: [Getter],\n  Global: [Getter],\n  Module: [Getter],\n  RequestMapping: [Getter],\n  Post: [Getter],\n  Get: [Getter],\n  Delete: [Getter],\n  Put: [Getter],\n  Patch: [Getter],\n  Options: [Getter],\n  Head: [Getter],\n  All: [Getter],\n  Search: [Getter],\n  assignMetadata: [Getter],\n  Request: [Getter],\n  Response: [Getter],\n  Next: [Getter],\n  Ip: [Getter],\n  Session: [Getter],\n  UploadedFile: [Getter],\n  UploadedFiles: [Getter],\n  Headers: [Getter],\n  Query: [Getter],\n  Body: [Getter],\n  Param: [Getter],\n  HostParam: [Getter],\n  Req: [Getter],\n  Res: [Getter],\n  HttpCode: [Getter],\n  createParamDecorator: [Getter],\n  Render: [Getter],\n  Header: [Getter],\n  Redirect: [Getter],\n  Sse: [Getter],\n  RequestMethod: [Getter],\n  HttpStatus: [Getter],\n  ShutdownSignal: [Getter],\n  VersioningType: [Getter],\n  BadRequestException: [Getter],\n  HttpException: [Getter],\n  UnauthorizedException: [Getter],\n  MethodNotAllowedException: [Getter],\n  NotFoundException: [Getter],\n  ForbiddenException: [Getter],\n  NotAcceptableException: [Getter],\n  RequestTimeoutException: [Getter],\n  ConflictException: [Getter],\n  GoneException: [Getter],\n  PayloadTooLargeException: [Getter],\n  UnsupportedMediaTypeException: [Getter],\n  UnprocessableEntityException: [Getter],\n  InternalServerErrorException: [Getter],\n  NotImplementedException: [Getter],\n  HttpVersionNotSupportedException: [Getter],\n  BadGatewayException: [Getter],\n  ServiceUnavailableException: [Getter],\n  GatewayTimeoutException: [Getter],\n  ImATeapotException: [Getter],\n  PreconditionFailedException: [Getter],\n  MisdirectedException: [Getter],\n  StreamableFile: [Getter],\n  ConfigurableModuleBuilder: [Getter],\n  DefaultValuePipe: [Getter],\n  ParseArrayPipe: [Getter],\n  ParseBoolPipe: [Getter],\n  ParseIntPipe: [Getter],\n  ParseFloatPipe: [Getter],\n  ParseEnumPipe: [Getter],\n  ParseUUIDPipe: [Getter],\n  ValidationPipe: [Getter],\n  FileTypeValidator: [Getter],\n  FileValidator: [Getter],\n  MaxFileSizeValidator: [Getter],\n  ParseFilePipe: [Getter],\n  ParseFilePipeBuilder: [Getter],\n  ClassSerializerInterceptor: [Getter],\n  SerializeOptions: [Getter],\n  ConsoleLogger: [Getter],\n  Logger: [Getter],\n  forwardRef: [Getter]\n}",
+        "object_id": 1
+      },
+      "elapsed": 0.0000023330067051574588
+    },
+    {
+      "event": "call",
+      "id": 15,
+      "thread_id": 0,
+      "method_id": "__webpack_require__",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Number",
+          "value": "6",
+          "name": "moduleId"
+        }
+      ],
+      "defined_class": "main",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 104
+    },
+    {
+      "event": "call",
+      "id": 16,
+      "thread_id": 0,
+      "method_id": "__webpack_require__",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Number",
+          "value": "4",
+          "name": "moduleId"
+        }
+      ],
+      "defined_class": "main",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 104
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 17,
+      "parent_id": 16,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "__extends",
+            "class": "Function"
+          },
+          {
+            "name": "__assign",
+            "class": "Function"
+          },
+          {
+            "name": "__rest",
+            "class": "Function"
+          },
+          {
+            "name": "__decorate",
+            "class": "Function"
+          },
+          {
+            "name": "__param",
+            "class": "Function"
+          },
+          {
+            "name": "__esDecorate",
+            "class": "Function"
+          },
+          {
+            "name": "__runInitializers",
+            "class": "Function"
+          },
+          {
+            "name": "__propKey",
+            "class": "Function"
+          },
+          {
+            "name": "__setFunctionName",
+            "class": "Function"
+          },
+          {
+            "name": "__metadata",
+            "class": "Function"
+          },
+          {
+            "name": "__awaiter",
+            "class": "Function"
+          },
+          {
+            "name": "__generator",
+            "class": "Function"
+          },
+          {
+            "name": "__exportStar",
+            "class": "Function"
+          },
+          {
+            "name": "__createBinding",
+            "class": "Function"
+          },
+          {
+            "name": "__values",
+            "class": "Function"
+          },
+          {
+            "name": "__read",
+            "class": "Function"
+          },
+          {
+            "name": "__spread",
+            "class": "Function"
+          },
+          {
+            "name": "__spreadArrays",
+            "class": "Function"
+          },
+          {
+            "name": "__spreadArray",
+            "class": "Function"
+          },
+          {
+            "name": "__await",
+            "class": "Function"
+          },
+          {
+            "name": "__asyncGenerator",
+            "class": "Function"
+          },
+          {
+            "name": "__asyncDelegator",
+            "class": "Function"
+          },
+          {
+            "name": "__asyncValues",
+            "class": "Function"
+          },
+          {
+            "name": "__makeTemplateObject",
+            "class": "Function"
+          },
+          {
+            "name": "__importStar",
+            "class": "Function"
+          },
+          {
+            "name": "__importDefault",
+            "class": "Function"
+          },
+          {
+            "name": "__classPrivateFieldGet",
+            "class": "Function"
+          },
+          {
+            "name": "__classPrivateFieldSet",
+            "class": "Function"
+          },
+          {
+            "name": "__classPrivateFieldIn",
+            "class": "Function"
+          },
+          {
+            "name": "__addDisposableResource",
+            "class": "Function"
+          },
+          {
+            "name": "__disposeResources",
+            "class": "Function"
+          }
+        ],
+        "value": "{\n  __extends: [Function: __extends],\n  __assign: [Function: assign],\n  __rest: [Function: __rest],\n  __decorate: [Function: __decorate],\n  __param: [Function: __param],\n  __esDecorate: [Function: __esDecorate],\n  __runInitializers: [Function: __runInitializers],\n  __propKey: [Function: __propKey],\n  __setFunctionName: [Function: __setFunctionName],\n  __metadata: [Function: __metadata],\n  __awaiter: [Function: __awaiter],\n  __generator: [Function: __generator],\n  __exportStar: [Function: __exportStar],\n  __createBinding: [Function (anonymous)],\n  __values: [Function: __values],\n  __read: [Function: __read],\n  __spread: [Function: __spread],\n  __spreadArrays: [Function: __spreadArrays],\n  __spreadArray: [Function: __spreadArray],\n  __await: [Function: __await],\n  __asyncGenerator: [Function: __asyncGenerator],\n  __asyncDelegator: [Function: __asyncDelegator],\n  __asyncValues: [Function: __asyncValues],\n  __makeTemplateObject: [Function: __makeTemplateObject],\n  __importStar: [Function: __importStar],\n  __importDefault: [Function: __importDefault],\n  __classPrivateFieldGet: [Function: __classPrivateFieldGet],\n  __classPrivateFieldSet: [Function: __classPrivateFieldSet],\n  __classPrivateFieldIn: [Function: __classPrivateFieldIn],\n  __addDisposableResource: [Function: __addDisposableResource],\n  __disposeResources: [Function: __disposeResources]\n}",
+        "object_id": 3
+      },
+      "elapsed": 0.0000013749959180131555
+    },
+    {
+      "event": "call",
+      "id": 18,
+      "thread_id": 0,
+      "method_id": "__webpack_require__",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Number",
+          "value": "1",
+          "name": "moduleId"
+        }
+      ],
+      "defined_class": "main",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 104
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 19,
+      "parent_id": 18,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "Scope",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "0",
+                "class": "String"
+              },
+              {
+                "name": "1",
+                "class": "String"
+              },
+              {
+                "name": "2",
+                "class": "String"
+              },
+              {
+                "name": "DEFAULT",
+                "class": "Number"
+              },
+              {
+                "name": "TRANSIENT",
+                "class": "Number"
+              },
+              {
+                "name": "REQUEST",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "VERSION_NEUTRAL",
+            "class": "Symbol"
+          },
+          {
+            "name": "Bind",
+            "class": "Function"
+          },
+          {
+            "name": "Catch",
+            "class": "Function"
+          },
+          {
+            "name": "Controller",
+            "class": "Function"
+          },
+          {
+            "name": "flatten",
+            "class": "Function"
+          },
+          {
+            "name": "Dependencies",
+            "class": "Function"
+          },
+          {
+            "name": "UseFilters",
+            "class": "Function"
+          },
+          {
+            "name": "Inject",
+            "class": "Function"
+          },
+          {
+            "name": "Injectable",
+            "class": "Function"
+          },
+          {
+            "name": "mixin",
+            "class": "Function"
+          },
+          {
+            "name": "Optional",
+            "class": "Function"
+          },
+          {
+            "name": "SetMetadata",
+            "class": "Function"
+          },
+          {
+            "name": "UseGuards",
+            "class": "Function"
+          },
+          {
+            "name": "UseInterceptors",
+            "class": "Function"
+          },
+          {
+            "name": "UsePipes",
+            "class": "Function"
+          },
+          {
+            "name": "applyDecorators",
+            "class": "Function"
+          },
+          {
+            "name": "Version",
+            "class": "Function"
+          },
+          {
+            "name": "Global",
+            "class": "Function"
+          },
+          {
+            "name": "Module",
+            "class": "Function"
+          },
+          {
+            "name": "RequestMapping",
+            "class": "Function"
+          },
+          {
+            "name": "Post",
+            "class": "Function"
+          },
+          {
+            "name": "Get",
+            "class": "Function"
+          },
+          {
+            "name": "Delete",
+            "class": "Function"
+          },
+          {
+            "name": "Put",
+            "class": "Function"
+          },
+          {
+            "name": "Patch",
+            "class": "Function"
+          },
+          {
+            "name": "Options",
+            "class": "Function"
+          },
+          {
+            "name": "Head",
+            "class": "Function"
+          },
+          {
+            "name": "All",
+            "class": "Function"
+          },
+          {
+            "name": "Search",
+            "class": "Function"
+          },
+          {
+            "name": "assignMetadata",
+            "class": "Function"
+          },
+          {
+            "name": "Request",
+            "class": "Function"
+          },
+          {
+            "name": "Response",
+            "class": "Function"
+          },
+          {
+            "name": "Next",
+            "class": "Function"
+          },
+          {
+            "name": "Ip",
+            "class": "Function"
+          },
+          {
+            "name": "Session",
+            "class": "Function"
+          },
+          {
+            "name": "UploadedFile",
+            "class": "Function"
+          },
+          {
+            "name": "UploadedFiles",
+            "class": "Function"
+          },
+          {
+            "name": "Headers",
+            "class": "Function"
+          },
+          {
+            "name": "Query",
+            "class": "Function"
+          },
+          {
+            "name": "Body",
+            "class": "Function"
+          },
+          {
+            "name": "Param",
+            "class": "Function"
+          },
+          {
+            "name": "HostParam",
+            "class": "Function"
+          },
+          {
+            "name": "Req",
+            "class": "Function"
+          },
+          {
+            "name": "Res",
+            "class": "Function"
+          },
+          {
+            "name": "HttpCode",
+            "class": "Function"
+          },
+          {
+            "name": "createParamDecorator",
+            "class": "Function"
+          },
+          {
+            "name": "Render",
+            "class": "Function"
+          },
+          {
+            "name": "Header",
+            "class": "Function"
+          },
+          {
+            "name": "Redirect",
+            "class": "Function"
+          },
+          {
+            "name": "Sse",
+            "class": "Function"
+          },
+          {
+            "name": "RequestMethod",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "0",
+                "class": "String"
+              },
+              {
+                "name": "1",
+                "class": "String"
+              },
+              {
+                "name": "2",
+                "class": "String"
+              },
+              {
+                "name": "3",
+                "class": "String"
+              },
+              {
+                "name": "4",
+                "class": "String"
+              },
+              {
+                "name": "5",
+                "class": "String"
+              },
+              {
+                "name": "6",
+                "class": "String"
+              },
+              {
+                "name": "7",
+                "class": "String"
+              },
+              {
+                "name": "8",
+                "class": "String"
+              },
+              {
+                "name": "GET",
+                "class": "Number"
+              },
+              {
+                "name": "POST",
+                "class": "Number"
+              },
+              {
+                "name": "PUT",
+                "class": "Number"
+              },
+              {
+                "name": "DELETE",
+                "class": "Number"
+              },
+              {
+                "name": "PATCH",
+                "class": "Number"
+              },
+              {
+                "name": "ALL",
+                "class": "Number"
+              },
+              {
+                "name": "OPTIONS",
+                "class": "Number"
+              },
+              {
+                "name": "HEAD",
+                "class": "Number"
+              },
+              {
+                "name": "SEARCH",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "HttpStatus",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "100",
+                "class": "String"
+              },
+              {
+                "name": "101",
+                "class": "String"
+              },
+              {
+                "name": "102",
+                "class": "String"
+              },
+              {
+                "name": "103",
+                "class": "String"
+              },
+              {
+                "name": "200",
+                "class": "String"
+              },
+              {
+                "name": "201",
+                "class": "String"
+              },
+              {
+                "name": "202",
+                "class": "String"
+              },
+              {
+                "name": "203",
+                "class": "String"
+              },
+              {
+                "name": "204",
+                "class": "String"
+              },
+              {
+                "name": "205",
+                "class": "String"
+              },
+              {
+                "name": "206",
+                "class": "String"
+              },
+              {
+                "name": "300",
+                "class": "String"
+              },
+              {
+                "name": "301",
+                "class": "String"
+              },
+              {
+                "name": "302",
+                "class": "String"
+              },
+              {
+                "name": "303",
+                "class": "String"
+              },
+              {
+                "name": "304",
+                "class": "String"
+              },
+              {
+                "name": "307",
+                "class": "String"
+              },
+              {
+                "name": "308",
+                "class": "String"
+              },
+              {
+                "name": "400",
+                "class": "String"
+              },
+              {
+                "name": "401",
+                "class": "String"
+              },
+              {
+                "name": "402",
+                "class": "String"
+              },
+              {
+                "name": "403",
+                "class": "String"
+              },
+              {
+                "name": "404",
+                "class": "String"
+              },
+              {
+                "name": "405",
+                "class": "String"
+              },
+              {
+                "name": "406",
+                "class": "String"
+              },
+              {
+                "name": "407",
+                "class": "String"
+              },
+              {
+                "name": "408",
+                "class": "String"
+              },
+              {
+                "name": "409",
+                "class": "String"
+              },
+              {
+                "name": "410",
+                "class": "String"
+              },
+              {
+                "name": "411",
+                "class": "String"
+              },
+              {
+                "name": "412",
+                "class": "String"
+              },
+              {
+                "name": "413",
+                "class": "String"
+              },
+              {
+                "name": "414",
+                "class": "String"
+              },
+              {
+                "name": "415",
+                "class": "String"
+              },
+              {
+                "name": "416",
+                "class": "String"
+              },
+              {
+                "name": "417",
+                "class": "String"
+              },
+              {
+                "name": "418",
+                "class": "String"
+              },
+              {
+                "name": "421",
+                "class": "String"
+              },
+              {
+                "name": "422",
+                "class": "String"
+              },
+              {
+                "name": "424",
+                "class": "String"
+              },
+              {
+                "name": "428",
+                "class": "String"
+              },
+              {
+                "name": "429",
+                "class": "String"
+              },
+              {
+                "name": "500",
+                "class": "String"
+              },
+              {
+                "name": "501",
+                "class": "String"
+              },
+              {
+                "name": "502",
+                "class": "String"
+              },
+              {
+                "name": "503",
+                "class": "String"
+              },
+              {
+                "name": "504",
+                "class": "String"
+              },
+              {
+                "name": "505",
+                "class": "String"
+              },
+              {
+                "name": "CONTINUE",
+                "class": "Number"
+              },
+              {
+                "name": "SWITCHING_PROTOCOLS",
+                "class": "Number"
+              },
+              {
+                "name": "PROCESSING",
+                "class": "Number"
+              },
+              {
+                "name": "EARLYHINTS",
+                "class": "Number"
+              },
+              {
+                "name": "OK",
+                "class": "Number"
+              },
+              {
+                "name": "CREATED",
+                "class": "Number"
+              },
+              {
+                "name": "ACCEPTED",
+                "class": "Number"
+              },
+              {
+                "name": "NON_AUTHORITATIVE_INFORMATION",
+                "class": "Number"
+              },
+              {
+                "name": "NO_CONTENT",
+                "class": "Number"
+              },
+              {
+                "name": "RESET_CONTENT",
+                "class": "Number"
+              },
+              {
+                "name": "PARTIAL_CONTENT",
+                "class": "Number"
+              },
+              {
+                "name": "AMBIGUOUS",
+                "class": "Number"
+              },
+              {
+                "name": "MOVED_PERMANENTLY",
+                "class": "Number"
+              },
+              {
+                "name": "FOUND",
+                "class": "Number"
+              },
+              {
+                "name": "SEE_OTHER",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_MODIFIED",
+                "class": "Number"
+              },
+              {
+                "name": "TEMPORARY_REDIRECT",
+                "class": "Number"
+              },
+              {
+                "name": "PERMANENT_REDIRECT",
+                "class": "Number"
+              },
+              {
+                "name": "BAD_REQUEST",
+                "class": "Number"
+              },
+              {
+                "name": "UNAUTHORIZED",
+                "class": "Number"
+              },
+              {
+                "name": "PAYMENT_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "FORBIDDEN",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_FOUND",
+                "class": "Number"
+              },
+              {
+                "name": "METHOD_NOT_ALLOWED",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_ACCEPTABLE",
+                "class": "Number"
+              },
+              {
+                "name": "PROXY_AUTHENTICATION_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "REQUEST_TIMEOUT",
+                "class": "Number"
+              },
+              {
+                "name": "CONFLICT",
+                "class": "Number"
+              },
+              {
+                "name": "GONE",
+                "class": "Number"
+              },
+              {
+                "name": "LENGTH_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "PRECONDITION_FAILED",
+                "class": "Number"
+              },
+              {
+                "name": "PAYLOAD_TOO_LARGE",
+                "class": "Number"
+              },
+              {
+                "name": "URI_TOO_LONG",
+                "class": "Number"
+              },
+              {
+                "name": "UNSUPPORTED_MEDIA_TYPE",
+                "class": "Number"
+              },
+              {
+                "name": "REQUESTED_RANGE_NOT_SATISFIABLE",
+                "class": "Number"
+              },
+              {
+                "name": "EXPECTATION_FAILED",
+                "class": "Number"
+              },
+              {
+                "name": "I_AM_A_TEAPOT",
+                "class": "Number"
+              },
+              {
+                "name": "MISDIRECTED",
+                "class": "Number"
+              },
+              {
+                "name": "UNPROCESSABLE_ENTITY",
+                "class": "Number"
+              },
+              {
+                "name": "FAILED_DEPENDENCY",
+                "class": "Number"
+              },
+              {
+                "name": "PRECONDITION_REQUIRED",
+                "class": "Number"
+              },
+              {
+                "name": "TOO_MANY_REQUESTS",
+                "class": "Number"
+              },
+              {
+                "name": "INTERNAL_SERVER_ERROR",
+                "class": "Number"
+              },
+              {
+                "name": "NOT_IMPLEMENTED",
+                "class": "Number"
+              },
+              {
+                "name": "BAD_GATEWAY",
+                "class": "Number"
+              },
+              {
+                "name": "SERVICE_UNAVAILABLE",
+                "class": "Number"
+              },
+              {
+                "name": "GATEWAY_TIMEOUT",
+                "class": "Number"
+              },
+              {
+                "name": "HTTP_VERSION_NOT_SUPPORTED",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "ShutdownSignal",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "SIGHUP",
+                "class": "String"
+              },
+              {
+                "name": "SIGINT",
+                "class": "String"
+              },
+              {
+                "name": "SIGQUIT",
+                "class": "String"
+              },
+              {
+                "name": "SIGILL",
+                "class": "String"
+              },
+              {
+                "name": "SIGTRAP",
+                "class": "String"
+              },
+              {
+                "name": "SIGABRT",
+                "class": "String"
+              },
+              {
+                "name": "SIGBUS",
+                "class": "String"
+              },
+              {
+                "name": "SIGFPE",
+                "class": "String"
+              },
+              {
+                "name": "SIGSEGV",
+                "class": "String"
+              },
+              {
+                "name": "SIGUSR2",
+                "class": "String"
+              },
+              {
+                "name": "SIGTERM",
+                "class": "String"
+              }
+            ]
+          },
+          {
+            "name": "VersioningType",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "0",
+                "class": "String"
+              },
+              {
+                "name": "1",
+                "class": "String"
+              },
+              {
+                "name": "2",
+                "class": "String"
+              },
+              {
+                "name": "3",
+                "class": "String"
+              },
+              {
+                "name": "URI",
+                "class": "Number"
+              },
+              {
+                "name": "HEADER",
+                "class": "Number"
+              },
+              {
+                "name": "MEDIA_TYPE",
+                "class": "Number"
+              },
+              {
+                "name": "CUSTOM",
+                "class": "Number"
+              }
+            ]
+          },
+          {
+            "name": "BadRequestException",
+            "class": "Function"
+          },
+          {
+            "name": "HttpException",
+            "class": "Function"
+          },
+          {
+            "name": "UnauthorizedException",
+            "class": "Function"
+          },
+          {
+            "name": "MethodNotAllowedException",
+            "class": "Function"
+          },
+          {
+            "name": "NotFoundException",
+            "class": "Function"
+          },
+          {
+            "name": "ForbiddenException",
+            "class": "Function"
+          },
+          {
+            "name": "NotAcceptableException",
+            "class": "Function"
+          },
+          {
+            "name": "RequestTimeoutException",
+            "class": "Function"
+          },
+          {
+            "name": "ConflictException",
+            "class": "Function"
+          },
+          {
+            "name": "GoneException",
+            "class": "Function"
+          },
+          {
+            "name": "PayloadTooLargeException",
+            "class": "Function"
+          },
+          {
+            "name": "UnsupportedMediaTypeException",
+            "class": "Function"
+          },
+          {
+            "name": "UnprocessableEntityException",
+            "class": "Function"
+          },
+          {
+            "name": "InternalServerErrorException",
+            "class": "Function"
+          },
+          {
+            "name": "NotImplementedException",
+            "class": "Function"
+          },
+          {
+            "name": "HttpVersionNotSupportedException",
+            "class": "Function"
+          },
+          {
+            "name": "BadGatewayException",
+            "class": "Function"
+          },
+          {
+            "name": "ServiceUnavailableException",
+            "class": "Function"
+          },
+          {
+            "name": "GatewayTimeoutException",
+            "class": "Function"
+          },
+          {
+            "name": "ImATeapotException",
+            "class": "Function"
+          },
+          {
+            "name": "PreconditionFailedException",
+            "class": "Function"
+          },
+          {
+            "name": "MisdirectedException",
+            "class": "Function"
+          },
+          {
+            "name": "StreamableFile",
+            "class": "Function"
+          },
+          {
+            "name": "ConfigurableModuleBuilder",
+            "class": "Function"
+          },
+          {
+            "name": "DefaultValuePipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseArrayPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseBoolPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseIntPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseFloatPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseEnumPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseUUIDPipe",
+            "class": "Function"
+          },
+          {
+            "name": "ValidationPipe",
+            "class": "Function"
+          },
+          {
+            "name": "FileTypeValidator",
+            "class": "Function"
+          },
+          {
+            "name": "FileValidator",
+            "class": "Function"
+          },
+          {
+            "name": "MaxFileSizeValidator",
+            "class": "Function"
+          },
+          {
+            "name": "ParseFilePipe",
+            "class": "Function"
+          },
+          {
+            "name": "ParseFilePipeBuilder",
+            "class": "Function"
+          },
+          {
+            "name": "ClassSerializerInterceptor",
+            "class": "Function"
+          },
+          {
+            "name": "SerializeOptions",
+            "class": "Function"
+          },
+          {
+            "name": "ConsoleLogger",
+            "class": "Function"
+          },
+          {
+            "name": "Logger",
+            "class": "Function"
+          },
+          {
+            "name": "forwardRef",
+            "class": "Function"
+          }
+        ],
+        "value": "{\n  Scope: [Getter],\n  VERSION_NEUTRAL: [Getter],\n  Bind: [Getter],\n  Catch: [Getter],\n  Controller: [Getter],\n  flatten: [Getter],\n  Dependencies: [Getter],\n  UseFilters: [Getter],\n  Inject: [Getter],\n  Injectable: [Getter],\n  mixin: [Getter],\n  Optional: [Getter],\n  SetMetadata: [Getter],\n  UseGuards: [Getter],\n  UseInterceptors: [Getter],\n  UsePipes: [Getter],\n  applyDecorators: [Getter],\n  Version: [Getter],\n  Global: [Getter],\n  Module: [Getter],\n  RequestMapping: [Getter],\n  Post: [Getter],\n  Get: [Getter],\n  Delete: [Getter],\n  Put: [Getter],\n  Patch: [Getter],\n  Options: [Getter],\n  Head: [Getter],\n  All: [Getter],\n  Search: [Getter],\n  assignMetadata: [Getter],\n  Request: [Getter],\n  Response: [Getter],\n  Next: [Getter],\n  Ip: [Getter],\n  Session: [Getter],\n  UploadedFile: [Getter],\n  UploadedFiles: [Getter],\n  Headers: [Getter],\n  Query: [Getter],\n  Body: [Getter],\n  Param: [Getter],\n  HostParam: [Getter],\n  Req: [Getter],\n  Res: [Getter],\n  HttpCode: [Getter],\n  createParamDecorator: [Getter],\n  Render: [Getter],\n  Header: [Getter],\n  Redirect: [Getter],\n  Sse: [Getter],\n  RequestMethod: [Getter],\n  HttpStatus: [Getter],\n  ShutdownSignal: [Getter],\n  VersioningType: [Getter],\n  BadRequestException: [Getter],\n  HttpException: [Getter],\n  UnauthorizedException: [Getter],\n  MethodNotAllowedException: [Getter],\n  NotFoundException: [Getter],\n  ForbiddenException: [Getter],\n  NotAcceptableException: [Getter],\n  RequestTimeoutException: [Getter],\n  ConflictException: [Getter],\n  GoneException: [Getter],\n  PayloadTooLargeException: [Getter],\n  UnsupportedMediaTypeException: [Getter],\n  UnprocessableEntityException: [Getter],\n  InternalServerErrorException: [Getter],\n  NotImplementedException: [Getter],\n  HttpVersionNotSupportedException: [Getter],\n  BadGatewayException: [Getter],\n  ServiceUnavailableException: [Getter],\n  GatewayTimeoutException: [Getter],\n  ImATeapotException: [Getter],\n  PreconditionFailedException: [Getter],\n  MisdirectedException: [Getter],\n  StreamableFile: [Getter],\n  ConfigurableModuleBuilder: [Getter],\n  DefaultValuePipe: [Getter],\n  ParseArrayPipe: [Getter],\n  ParseBoolPipe: [Getter],\n  ParseIntPipe: [Getter],\n  ParseFloatPipe: [Getter],\n  ParseEnumPipe: [Getter],\n  ParseUUIDPipe: [Getter],\n  ValidationPipe: [Getter],\n  FileTypeValidator: [Getter],\n  FileValidator: [Getter],\n  MaxFileSizeValidator: [Getter],\n  ParseFilePipe: [Getter],\n  ParseFilePipeBuilder: [Getter],\n  ClassSerializerInterceptor: [Getter],\n  SerializeOptions: [Getter],\n  ConsoleLogger: [Getter],\n  Logger: [Getter],\n  forwardRef: [Getter]\n}",
+        "object_id": 1
+      },
+      "elapsed": 0.0000038339931052178144
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 20,
+      "parent_id": 15,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "AppService",
+            "class": "Function"
+          }
+        ],
+        "value": "{ AppService: [class AppService] }",
+        "object_id": 4
+      },
+      "elapsed": 0.01682158299081493
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 21,
+      "parent_id": 10,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "AppController",
+            "class": "Function"
+          }
+        ],
+        "value": "{ AppController: [class AppController] }",
+        "object_id": 5
+      },
+      "elapsed": 0.018474416006938554
+    },
+    {
+      "event": "call",
+      "id": 22,
+      "thread_id": 0,
+      "method_id": "__webpack_require__",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Number",
+          "value": "6",
+          "name": "moduleId"
+        }
+      ],
+      "defined_class": "main",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 104
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 23,
+      "parent_id": 22,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "AppService",
+            "class": "Function"
+          }
+        ],
+        "value": "{ AppService: [class AppService] }",
+        "object_id": 4
+      },
+      "elapsed": 0.0000013749959180131555
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 24,
+      "parent_id": 5,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "AppModule",
+            "class": "Function"
+          }
+        ],
+        "value": "{ AppModule: [class AppModule] }",
+        "object_id": 6
+      },
+      "elapsed": 0.020056499997735955
+    },
+    {
+      "event": "call",
+      "id": 25,
+      "thread_id": 0,
+      "method_id": "bootstrap",
+      "static": true,
+      "defined_class": "main",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 138
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 26,
+      "parent_id": 25,
+      "elapsed": 0.2274659579998115,
+      "exceptions": [
+        {
+          "class": "Error",
+          "message": "listen EADDRINUSE: address already in use :::3000",
+          "object_id": 9
+        }
+      ],
+      "return_value": {
+        "class": "Promise",
+        "value": "Promise { <rejected> }",
+        "object_id": 7
+      }
+    },
+    {
+      "event": "call",
+      "id": 27,
+      "thread_id": 0,
+      "method_id": "constructor",
+      "static": true,
+      "parameters": [
+        {
+          "class": "AppService",
+          "value": "AppService {}",
+          "object_id": 8,
+          "name": "appService"
+        }
+      ],
+      "defined_class": "AppController",
+      "path": "dist/apps/career-pilot/main.js",
+      "lineno": 57
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 28,
+      "parent_id": 27,
+      "elapsed": 0.000011708005331456661
+    }
+  ],
+  "version": "1.12",
+  "metadata": {
+    "client": {
+      "name": "appmap-node",
+      "version": "2.15.0",
+      "url": "https://github.com/getappmap/appmap-node"
+    },
+    "language": {
+      "name": "javascript",
+      "engine": "Node.js",
+      "version": "v20.9.0"
+    },
+    "app": "@career-pilot/source",
+    "recorder": {
+      "type": "process",
+      "name": "process"
+    },
+    "name": "2024-02-12T08:08:02.860Z"
+  },
+  "classMap": [
+    {
+      "name": "career-pilot",
+      "type": "package",
+      "children": [
+        {
+          "type": "class",
+          "name": "main",
+          "children": [
+            {
+              "type": "function",
+              "name": "__webpack_require__",
+              "static": true,
+              "location": "dist/apps/career-pilot/main.js:104"
+            },
+            {
+              "type": "function",
+              "name": "bootstrap",
+              "static": true,
+              "location": "dist/apps/career-pilot/main.js:138"
+            }
+          ]
+        },
+        {
+          "type": "class",
+          "name": "AppController",
+          "children": [
+            {
+              "type": "function",
+              "name": "constructor",
+              "static": false,
+              "location": "dist/apps/career-pilot/main.js:57"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

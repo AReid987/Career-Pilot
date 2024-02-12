@@ -1,7 +1,7 @@
-name: "@career-pilot/source"
+name: '@career-pilot/source'
 appmap_dir: tmp/appmap
 packages:
   - path: .
     exclude:
       - node_modules
-      - .yarn
+      - pnpm-lock.yaml

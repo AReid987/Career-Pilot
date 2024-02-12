@@ -12,7 +12,7 @@
       "automerge": true
     },
     {
-      "matchManagers": ["pnpm"],
+      "matchManagers": ["npm", "github-actions"],
       "automerge": true
     }
   ],

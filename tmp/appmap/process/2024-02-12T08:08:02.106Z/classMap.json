@@ -1,0 +1,12 @@
+[
+  {
+    "type": "external-service",
+    "name": "cloud.nx.app",
+    "children": [
+      {
+        "type": "external-route",
+        "name": "POST https://cloud.nx.app/nx-cloud/runs/end"
+      }
+    ]
+  }
+]

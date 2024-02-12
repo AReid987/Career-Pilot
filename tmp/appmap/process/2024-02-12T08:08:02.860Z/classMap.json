@@ -1,0 +1,38 @@
+[
+  {
+    "name": "career-pilot",
+    "type": "package",
+    "children": [
+      {
+        "type": "class",
+        "name": "main",
+        "children": [
+          {
+            "type": "function",
+            "name": "__webpack_require__",
+            "static": true,
+            "location": "dist/apps/career-pilot/main.js:104"
+          },
+          {
+            "type": "function",
+            "name": "bootstrap",
+            "static": true,
+            "location": "dist/apps/career-pilot/main.js:138"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "AppController",
+        "children": [
+          {
+            "type": "function",
+            "name": "constructor",
+            "static": false,
+            "location": "dist/apps/career-pilot/main.js:57"
+          }
+        ]
+      }
+    ]
+  }
+]
