@@ -9,7 +9,7 @@
       "outputs": ["{workspaceRoot}/coverage/{e2eProjectRoot}"],
       "options": {
         "jestConfig": "apps/career-pilot-e2e/jest.config.ts",
-        "devServerTarget": "career-pilot:serve:development",
+        "devServerTarget": "career-pilot:serve",
         "testingType": "e2e",
         "passWithNoTests": true
       },
@@ -21,12 +21,9 @@
           "devServerTarget": "career-pilot:serve:production"
         },
         "ci": {
-          "devServerTarget": "career-pilot:serve-static"
+          "devServerTarget": "career-pilot:serve"
         }
       }
-    },
-    "test": {
-      "dependsOn": ["^serve"]
     }
   }
 }

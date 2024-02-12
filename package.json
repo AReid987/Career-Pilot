@@ -2,7 +2,10 @@
   "name": "@career-pilot/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test": "jest",
+    "start": "NODE_ENV=production node dist/apps/career-pilot/main.js"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^10.0.2",
