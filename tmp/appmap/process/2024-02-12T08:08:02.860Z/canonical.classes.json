@@ -1,1 +1,4 @@
-["career-pilot/AppController", "career-pilot/main"]
+[
+  "career-pilot/AppController",
+  "career-pilot/main"
+]
