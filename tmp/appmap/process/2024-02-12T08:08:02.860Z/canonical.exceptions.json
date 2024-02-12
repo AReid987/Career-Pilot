@@ -2,8 +2,6 @@
   {
     "class": "Error",
     "message": "listen EADDRINUSE: address already in use :::3000",
-    "stack": [
-      "dist/apps/career-pilot/main.js:138"
-    ]
+    "stack": ["dist/apps/career-pilot/main.js:138"]
   }
 ]
