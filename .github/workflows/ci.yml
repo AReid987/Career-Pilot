@@ -34,7 +34,7 @@ jobs:
       - run: pnpm exec nx affected -t lint test build
 
       - name: Save AppMaps
-        uses: actions/cache/save@v3
+        uses: actions/cache/save@v4
         if: always()
         with:
           path: ./tmp/appmap
