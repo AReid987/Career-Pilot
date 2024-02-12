@@ -1,0 +1,10 @@
+[
+  {
+    "caller": "GET /api",
+    "callee": "career-pilot/AppController"
+  },
+  {
+    "caller": "career-pilot/AppController",
+    "callee": "career-pilot/AppService"
+  }
+]

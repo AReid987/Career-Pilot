@@ -1,0 +1,42 @@
+[
+  {
+    "name": "career-pilot",
+    "type": "package",
+    "children": [
+      {
+        "type": "class",
+        "name": "AppController",
+        "children": [
+          {
+            "type": "function",
+            "name": "getData",
+            "static": false,
+            "location": "dist/apps/career-pilot/main.js:60"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "AppService",
+        "children": [
+          {
+            "type": "function",
+            "name": "getData",
+            "static": false,
+            "location": "dist/apps/career-pilot/main.js:87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /api"
+      }
+    ]
+  }
+]

@@ -2,10 +2,8 @@
 
 # compiled output
 dist
-tmp
+tmp/*
 !tmp/appmap
-!tmp/appmap/*
-!tmp/appmap/**/*
 /out-tsc
 
 # dependencies
