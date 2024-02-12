@@ -25,7 +25,7 @@ async function ensureApiRunning() {
     console.log('API is running at: ', apiUrl);
     return true;
   } catch (error) {
-    console.log('API is not running. error: ', error);
+    console.log('API is not running');
     await startApi();
   }
   return false;

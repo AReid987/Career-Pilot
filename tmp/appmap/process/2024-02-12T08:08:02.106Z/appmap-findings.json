@@ -54,10 +54,7 @@
       "rule": {
         "id": "authz-before-authn",
         "title": "Authorization performed before authentication",
-        "labels": [
-          "security.authorization",
-          "security.authentication"
-        ],
+        "labels": ["security.authorization", "security.authentication"],
         "scope": "http_server_request",
         "impactDomain": "Security",
         "enumerateScope": false,
@@ -82,11 +79,7 @@
         "title": "Deprecated cryptographic algorithm",
         "description": "---\nrule: deprecated-crypto-algorithm\nname: Deprecated crypto algorithm\ntitle: Deprecated cryptographic algorithm\nreferences:\n  A02:2021: https://owasp.org/Top10/A02_2021-Cryptographic_Failures/\nimpactDomain: Security\nlabels:\n  - crypto.encrypt\n  - crypto.decrypt\n  - crypto.digest\nscope: root\n---\n\nEnsure that cryptographic operations do not use deprecated algorithms.\n",
         "url": "https://appland.com/docs/analysis/rules-reference.html#deprecated-crypto-algorithm",
-        "labels": [
-          "crypto.encrypt",
-          "crypto.decrypt",
-          "crypto.digest"
-        ],
+        "labels": ["crypto.encrypt", "crypto.decrypt", "crypto.digest"],
         "scope": "root",
         "enumerateScope": true,
         "impactDomain": "Security",
@@ -135,11 +128,7 @@
       "rule": {
         "id": "exec-of-untrusted-command",
         "title": "Execution of untrusted system command",
-        "labels": [
-          "system.exec",
-          "system.exec.safe",
-          "system.exec.sanitize"
-        ],
+        "labels": ["system.exec", "system.exec.safe", "system.exec.sanitize"],
         "impactDomain": "Security",
         "enumerateScope": false,
         "references": {
@@ -185,10 +174,7 @@
         "id": "logout-without-session-reset",
         "title": "Logout without session reset",
         "scope": "http_server_request",
-        "labels": [
-          "http.session.clear",
-          "security.logout"
-        ],
+        "labels": ["http.session.clear", "security.logout"],
         "impactDomain": "Security",
         "enumerateScope": false,
         "references": {
@@ -256,10 +242,7 @@
       "rule": {
         "id": "secret-in-log",
         "title": "Secret in log",
-        "labels": [
-          "secret",
-          "log"
-        ],
+        "labels": ["secret", "log"],
         "scope": "root",
         "impactDomain": "Security",
         "enumerateScope": true,
@@ -342,10 +325,7 @@
         "title": "Unauthenticated encryption",
         "description": "Ensures that encryption operations use authenticated encryption.",
         "url": "https://appland.com/docs/analysis/rules-reference.html#unauthenticated-encryption",
-        "labels": [
-          "crypto.encrypt",
-          "crypto.set_auth_data"
-        ],
+        "labels": ["crypto.encrypt", "crypto.set_auth_data"],
         "enumerateScope": true,
         "impactDomain": "Security",
         "references": {
@@ -367,19 +347,14 @@
         "title": "Data update performed in GET or HEAD request",
         "scope": "http_server_request",
         "enumerateScope": true,
-        "labels": [
-          "audit"
-        ],
+        "labels": ["audit"],
         "impactDomain": "Maintainability",
         "description": "Finds SQL updates that are performed in an HTTP server `GET` request.",
         "url": "https://appland.com/docs/analysis/rules-reference.html#update-in-get-request"
       },
       "id": "update-in-get-request",
       "options": {
-        "_queryInclude": [
-          {},
-          {}
-        ],
+        "_queryInclude": [{}, {}],
         "_queryExclude": []
       },
       "scope": "http_server_request",
@@ -430,9 +405,7 @@
     "numFindings": 0,
     "appMapMetadata": {
       "labels": [],
-      "apps": [
-        "@career-pilot/source"
-      ],
+      "apps": ["@career-pilot/source"],
       "clients": [
         {
           "name": "appmap-node",
